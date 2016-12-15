@@ -977,194 +977,191 @@ class PokemonTableSeeder extends Seeder {
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 127;
-		$pokemon->name = '';
+		$pokemon->name = 'Asterint';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 16;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 128;
-		$pokemon->name = '';
+		$pokemon->name = 'Asterthought';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 16;
+		$pokemon->type2_id = 15;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 129;
-		$pokemon->name = '';
+		$pokemon->name = 'Astermind';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 16;
+		$pokemon->type2_id = 15;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 130;
-		$pokemon->name = '';
+		$pokemon->name = 'Volcone';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 7;
+		$pokemon->type2_id = 11;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 131;
-		$pokemon->name = '';
+		$pokemon->name = 'Volcrater';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 7;
+		$pokemon->type2_id = 11;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 132;
-		$pokemon->name = '';
+		$pokemon->name = 'Volcrevice';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 7;
+		$pokemon->type2_id = 11;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 133;
-		$pokemon->name = '';
+		$pokemon->name = 'Snolar';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 13;
+		$pokemon->type2_id = 12;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 134;
-		$pokemon->name = '';
+		$pokemon->name = 'Snivvur';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 4;
+		$pokemon->type2_id = 12;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 135;
-		$pokemon->name = '';
+		$pokemon->name = 'Delicare';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 8;
+		$pokemon->type2_id = 5;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 136;
-		$pokemon->name = '';
+		$pokemon->name = 'Deliconcern';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 8;
+		$pokemon->type2_id = 5;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 137;
-		$pokemon->name = '';
+		$pokemon->name = 'Delimpathy';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 15;
+		$pokemon->type2_id = 5;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 138;
-		$pokemon->name = '';
+		$pokemon->name = 'Shotany';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 10;
+		$pokemon->type2_id = 4;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 139;
-		$pokemon->name = '';
+		$pokemon->name = 'Shotanical';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 10;
+		$pokemon->type2_id = 4;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 140;
-		$pokemon->name = '';
+		$pokemon->name = 'Noctmet';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 2;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 141;
-		$pokemon->name = '';
+		$pokemon->name = 'Noctoval';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 2;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 142;
-		$pokemon->name = '';
+		$pokemon->name = 'Noctagon';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 2;
+		$pokemon->type2_id = 3;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 143;
-		$pokemon->name = '';
+		$pokemon->name = 'Growbra';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 10;
+		$pokemon->type2_id = 11;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 144;
-		$pokemon->name = '';
+		$pokemon->name = 'Pasgon';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 9;
+		$pokemon->type2_id = 3;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 145;
-		$pokemon->name = '';
+		$pokemon->name = 'Yeoldra';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 9;
+		$pokemon->type2_id = 3;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 146;
-		$pokemon->name = '';
+		$pokemon->name = 'Anciennevyrn';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 9;
+		$pokemon->type2_id = 3;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 147;
-		$pokemon->name = '';
+		$pokemon->name = 'Aerioyal';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 8;
+		$pokemon->type2_id = 12;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 148;
-		$pokemon->name = '';
+		$pokemon->name = 'Tyranizor';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 16;
+		$pokemon->type2_id = 10;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 149;
-		$pokemon->name = '';
+		$pokemon->name = 'Lioplorodeep';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 18;
+		$pokemon->type2_id = 2;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 150;
-		$pokemon->name = '';
+		$pokemon->name = 'Wyrmgon';
 		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
+		$pokemon->type1_id = 3;
+		$pokemon->type2_id = 7;
 		$pokemon->entry = '';
 	}
 }
