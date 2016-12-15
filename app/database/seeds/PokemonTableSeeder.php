@@ -86,67 +86,64 @@ class PokemonTableSeeder extends Seeder {
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 012;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Avioptrix';
+		$pokemon->description = 'Bird';
+		$pokemon->type1_id = 13;
+		$pokemon->type2_id = 8;
+		$pokemon->entry = 'It is not yet capable of flight, so it looks for berries along the ground and uses its wings to dust them off';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 013;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Archaetalon';
+		$pokemon->description = 'Aggressive Bird';
+		$pokemon->type1_id = 13;
+		$pokemon->type2_id = 8;
+		$pokemon->entry = 'Archaetalon is extremely aggressive, picking fights with any living being that enters its territory';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 014;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Aviopugil';
+		$pokemon->description = 'Fighting Bird';
+		$pokemon->type1_id = 6;
+		$pokemon->type2_id = 8;
+		$pokemon->entry = 'Now capable of flight, Aviopugil keeps the sky around its territory clear of other life';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 015;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Sampras';
+		$pokemon->description = 'Rabbit';
+		$pokemon->type1_id = 6;
+		$pokemon->entry = 'It is protective of its food and will fight to the death at the slightest provocation';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 016;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Sammel';
+		$pokemon->description = 'Sand Camel';
+		$pokemon->type1_id = 11;
+		$pokemon->type2_id = 6;
+		$pokemon->entry = 'It camoflauges itself with the surrounding dirt to hide from predators';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 017;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Rokkit';
+		$pokemon->description = 'Kitten';
+		$pokemon->type1_id = 16;
+		$pokemon->entry = 'It cannot survive in the wild without its pack. It takes shelter in stone cracks';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 018;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Stiger';
+		$pokemon->description = 'Tiger';
+		$pokemon->type1_id = 16;
+		$pokemon->entry = 'Young Stiger are taken into the wild by Geosabre to learn how to hunt. Only half of the population survive';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 019;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Geosabre';
+		$pokemon->description = 'Sabre-Toothed Cat';
+		$pokemon->type1_id = 16;
+		$pokemon->type2_id = 2;
+		$pokemon->entry = 'One of the most feared predators in the region, its roar can be heard from miles away';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 020;
