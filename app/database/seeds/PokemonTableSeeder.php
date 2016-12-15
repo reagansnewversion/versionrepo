@@ -5,75 +5,69 @@ class PokemonTableSeeder extends Seeder {
 	{
 		$pokemon = new Pokemon();
 		$pokemon->number = 001;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Stegaseed';
+		$pokemon->description = 'Tiny Seed';
+		$pokemon->type1_id = 10;
+		$pokemon->entry = 'Stegaseed lives its entire life in search of nutrients';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 002;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Stegastalk';
+		$pokemon->description = 'Growth';
+		$pokemon->type1_id = 10;
+		$pokemon->entry = 'It is incredibly defensive of the stalk that grows on its back';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 003;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Stegaflora';
+		$pokemon->description = 'Corrosive Spike';
+		$pokemon->type1_id = 10;
+		$pokemon->type2_id = 14;
+		$pokemon->entry = 'If attacked, it will poison its foes with the spikes on its tail';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 004;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Immomimus';
+		$pokemon->description = 'Ember Lizard';
+		$pokemon->type1_id = 7;
+		$pokemon->entry = 'It uses the embers in its stomach to heat its food';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 005;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Velociraser';
+		$pokemon->description = 'Ember Raptor';
+		$pokemon->type1_id = 7;
+		$pokemon->entry = 'It stalks its prey in groups, using its fire as a distraction';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 006;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Dinonicarson';
+		$pokemon->description = 'Arson';
+		$pokemon->type1_id = 7;
+		$pokemon->type2_id = 2;
+		$pokemon->entry = 'It sets fire to everything in its path and only stops to feed';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 007;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Iffin';
+		$pokemon->description = 'Tiny Dolphin';
+		$pokemon->type1_id = 18;
+		$pokemon->entry = 'It thrives mostly off of plankton until it evolves';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 008;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Ikthio';
+		$pokemon->description = 'Jet';
+		$pokemon->type1_id = 18;
+		$pokemon->entry = 'It suffers many injuries by slamming into river banks from swimming too fast.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 009;
-		$pokemon->name = '';
-		$pokemon->description = '';
-		$pokemon->type1_id = ;
-		$pokemon->type2_id = ;
-		$pokemon->entry = '';
+		$pokemon->name = 'Ipplesio';
+		$pokemon->description = 'Plesiosaurus';
+		$pokemon->type1_id = 18;
+		$pokemon->type2_id = 15;
+		$pokemon->entry = 'It relies on its psychic powers to determine when predators are too close.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 010;
