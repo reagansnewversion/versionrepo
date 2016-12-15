@@ -5,7 +5,7 @@ class DexController extends BaseController {
 	public function index()
 	{
 		$pokemon = Pokemon::all();
-		return View::make('dexindex');
+		return View::make('dexindex')->with('pokemon', $pokemon);
 	}
 
 	public function show($number)
