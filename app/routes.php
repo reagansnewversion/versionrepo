@@ -14,4 +14,9 @@
 Route::get('/', function()
 {
 	return View::make('layouts.master');
+
 });
+
+Route::get('/pokedex', 'DexController@index');
+
+Route::get('/pokedex/{number}', 'DexController@show');
