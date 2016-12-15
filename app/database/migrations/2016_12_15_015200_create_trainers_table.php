@@ -12,7 +12,14 @@ class CreateTrainersTable extends Migration {
 	 */
 	public function up()
 	{
-		//
+		Schema::create('trainers', function($table) {
+			$table->increments('id');
+			$table->string('email')->unique();
+			$table->string('name');
+			$table->string('password');
+			$table->string('gender');
+			$table->timestamps();
+		});
 	}
 
 	/**
@@ -22,7 +29,7 @@ class CreateTrainersTable extends Migration {
 	 */
 	public function down()
 	{
-		//
+		Schema::drop('trainers');
 	}
 
 }
