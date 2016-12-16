@@ -1081,88 +1081,88 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon = new Pokemon();
 		$pokemon->number = 140;
 		$pokemon->name = 'Noctmet';
-		$pokemon->description = '';
+		$pokemon->description = 'Helmet';
 		$pokemon->type1_id = 2;
-		$pokemon->entry = '';
+		$pokemon->entry = 'At night, Noctmet can hold its head down and be practically invisible.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 141;
 		$pokemon->name = 'Noctoval';
-		$pokemon->description = '';
+		$pokemon->description = 'Circular';
 		$pokemon->type1_id = 2;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It can roll as easily uphill as it can downhill.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 142;
 		$pokemon->name = 'Noctagon';
-		$pokemon->description = '';
+		$pokemon->description = 'Black Dragon';
 		$pokemon->type1_id = 2;
 		$pokemon->type2_id = 3;
-		$pokemon->entry = '';
+		$pokemon->entry = 'In ancient times, humans would not venture outside at night for fear that a Noctagon might be prowling.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 143;
 		$pokemon->name = 'Growbra';
-		$pokemon->description = '';
+		$pokemon->description = 'Cobra';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 11;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It blends in both with foliage and with sand. It feasts on Telekiguana, which it can sense even when they are invisible.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 144;
 		$pokemon->name = 'Pasgon';
-		$pokemon->description = '';
+		$pokemon->description = 'Ancient Fledgling';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 3;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It existed long ago, and is said to have been numerous at the time.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 145;
 		$pokemon->name = 'Yeoldra';
-		$pokemon->description = '';
+		$pokemon->description = 'Ancient Dragon';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 3;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It is said that all modern dragon-types are descended from Yeoldra.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 146;
 		$pokemon->name = 'Anciennevyrn';
-		$pokemon->description = '';
+		$pokemon->description = 'Ancient Wyvern';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 3;
-		$pokemon->entry = '';
+		$pokemon->entry = 'The undead husk of an ancient dragon-type said to have once been the evolved form of Yeoldra.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 147;
 		$pokemon->name = 'Aerioyal';
-		$pokemon->description = '';
+		$pokemon->description = 'Pteranodon';
 		$pokemon->type1_id = 8;
 		$pokemon->type2_id = 12;
-		$pokemon->entry = '';
+		$pokemon->entry = "The largest of all flying-types, Aerioyal's wings can be heard across the region.";
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 148;
 		$pokemon->name = 'Tyranizor';
-		$pokemon->description = '';
+		$pokemon->description = 'Tyrant';
 		$pokemon->type1_id = 16;
 		$pokemon->type2_id = 10;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It prowls the plains of the region, feasting on whatever life it deems suitable, whether it be meat or plant.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 149;
 		$pokemon->name = 'Lioplorodeep';
-		$pokemon->description = '';
+		$pokemon->description = 'Deep-Sea Terror';
 		$pokemon->type1_id = 18;
 		$pokemon->type2_id = 2;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Water-types do not dare to venture too deep into the ocean. In the darkness of the deep, Lioplorodeep cannot be seen.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 150;
 		$pokemon->name = 'Wyrmgon';
-		$pokemon->description = '';
+		$pokemon->description = 'Gold';
 		$pokemon->type1_id = 3;
 		$pokemon->type2_id = 7;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Only one has even been observed. Its scales appear to be made of solid gold, making it a popular target for hunters, though none have successfully located one.';
 	}
 }
 ?>
