@@ -12,8 +12,10 @@ class DatabaseSeeder extends Seeder {
 		Eloquent::unguard();
 
 		DB::table('types')->delete();
-		
+		DB::table('pokemon')->delete();
+
 		$this->call('TypesTableSeeder');
+		$this->call('PokemonTableSeeder');
 	}
 
 }

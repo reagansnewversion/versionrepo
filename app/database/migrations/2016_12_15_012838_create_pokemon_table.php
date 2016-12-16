@@ -14,7 +14,6 @@ class CreatePokemonTable extends Migration {
 	{
 		Schema::create('pokemon', function($table) {
 			$table->increments('id');
-			$table->integer('number')->unsigned();
 			$table->string('name');
 			$table->string('description', 100);
 			$table->integer('type1_id')->unsigned();

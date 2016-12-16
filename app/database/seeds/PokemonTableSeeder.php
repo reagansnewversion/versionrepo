@@ -4,7 +4,6 @@ class PokemonTableSeeder extends Seeder {
 	public function run()
 	{
 		$pokemon = new Pokemon();
-		$pokemon->number = 001;
 		$pokemon->name = 'Stegaseed';
 		$pokemon->description = 'Tiny Seed';
 		$pokemon->type1_id = 10;
@@ -13,7 +12,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 002;
 		$pokemon->name = 'Stegastalk';
 		$pokemon->description = 'Growth';
 		$pokemon->type1_id = 10;
@@ -22,7 +20,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 003;
 		$pokemon->name = 'Stegaflora';
 		$pokemon->description = 'Corrosive Spike';
 		$pokemon->type1_id = 10;
@@ -31,7 +28,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 004;
 		$pokemon->name = 'Immomimus';
 		$pokemon->description = 'Ember Lizard';
 		$pokemon->type1_id = 7;
@@ -40,7 +36,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 005;
 		$pokemon->name = 'Velociraser';
 		$pokemon->description = 'Ember Raptor';
 		$pokemon->type1_id = 7;
@@ -49,7 +44,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 006;
 		$pokemon->name = 'Dinonicarson';
 		$pokemon->description = 'Arson';
 		$pokemon->type1_id = 7;
@@ -58,7 +52,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 007;
 		$pokemon->name = 'Iffin';
 		$pokemon->description = 'Tiny Dolphin';
 		$pokemon->type1_id = 18;
@@ -67,7 +60,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 008;
 		$pokemon->name = 'Ikthio';
 		$pokemon->description = 'Jet';
 		$pokemon->type1_id = 18;
@@ -76,7 +68,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 009;
 		$pokemon->name = 'Ipplesio';
 		$pokemon->description = 'Plesiosaurus';
 		$pokemon->type1_id = 18;
@@ -85,7 +76,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 010;
 		$pokemon->name = 'Shrewd';
 		$pokemon->description = 'Timid';
 		$pokemon->type1_id = 13;
@@ -94,7 +84,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 011;
 		$pokemon->name = 'Moltified';
 		$pokemon->description = 'Cowardly';
 		$pokemon->type1_id = 13;
@@ -103,7 +92,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 012;
 		$pokemon->name = 'Avioptrix';
 		$pokemon->description = 'Bird';
 		$pokemon->type1_id = 13;
@@ -113,7 +101,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 013;
 		$pokemon->name = 'Archaetalon';
 		$pokemon->description = 'Aggressive Bird';
 		$pokemon->type1_id = 13;
@@ -123,7 +110,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 014;
 		$pokemon->name = 'Aviopugil';
 		$pokemon->description = 'Fighting Bird';
 		$pokemon->type1_id = 6;
@@ -132,7 +118,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 015;
 		$pokemon->name = 'Sampras';
 		$pokemon->description = 'Rabbit';
 		$pokemon->type1_id = 6;
@@ -141,7 +126,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 016;
 		$pokemon->name = 'Sammel';
 		$pokemon->description = 'Sand Camel';
 		$pokemon->type1_id = 11;
@@ -150,7 +134,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 017;
 		$pokemon->name = 'Rokkit';
 		$pokemon->description = 'Kitten';
 		$pokemon->type1_id = 16;
@@ -159,7 +142,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 018;
 		$pokemon->name = 'Stiger';
 		$pokemon->description = 'Tiger';
 		$pokemon->type1_id = 16;
@@ -168,7 +150,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 019;
 		$pokemon->name = 'Geosabre';
 		$pokemon->description = 'Sabre-Toothed Cat';
 		$pokemon->type1_id = 16;
@@ -177,7 +158,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 020;
 		$pokemon->name = 'Lesterick';
 		$pokemon->description = 'Possum';
 		$pokemon->type1_id = 14;
@@ -186,7 +166,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 021;
 		$pokemon->name = 'Lesterile';
 		$pokemon->description = 'Possum';
 		$pokemon->type1_id = 14;
@@ -195,7 +174,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 022;
 		$pokemon->name = 'Veronish';
 		$pokemon->description = 'Goldfish';
 		$pokemon->type1_id = 18;
@@ -203,7 +181,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 023;
 		$pokemon->name = 'Martaqua';
 		$pokemon->description = 'Goldfish';
 		$pokemon->type1_id = 18;
@@ -211,7 +188,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 024;
 		$pokemon->name = 'Abzu';
 		$pokemon->description = 'Mouse';
 		$pokemon->type1_id = 18;
@@ -221,7 +197,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 025;
 		$pokemon->name = 'Abzuka';
 		$pokemon->description = 'Mouse';
 		$pokemon->type1_id = 18;
@@ -231,7 +206,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 026;
 		$pokemon->name = 'Abzukaru';
 		$pokemon->description = 'Mouse';
 		$pokemon->type1_id = 18;
@@ -240,7 +214,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 027;
 		$pokemon->name = 'Simiglist';
 		$pokemon->description = 'Ape';
 		$pokemon->type1_id = 6;
@@ -249,7 +222,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 028;
 		$pokemon->name = 'Sapiodo';
 		$pokemon->description = 'Fighting Ape';
 		$pokemon->type1_id = 6;
@@ -258,7 +230,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 029;
 		$pokemon->name = 'Neanderthawl';
 		$pokemon->description = 'Missing Link';
 		$pokemon->type1_id = 6;
@@ -267,7 +238,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 030;
 		$pokemon->name = 'Squidirt';
 		$pokemon->description = 'Dirt Squid';
 		$pokemon->type1_id = 18;
@@ -276,7 +246,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 031;
 		$pokemon->name = 'Contkraken';
 		$pokemon->description = 'Tectonic';
 		$pokemon->type1_id = 18;
@@ -285,7 +254,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 032;
 		$pokemon->name = 'Djilarva';
 		$pokemon->description = 'Larva';
 		$pokemon->type1_id = 1;
@@ -294,7 +262,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 033;
 		$pokemon->name = 'Djibeetle';
 		$pokemon->description = 'Beetle';
 		$pokemon->type1_id = 1;
@@ -302,7 +269,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 034;
 		$pokemon->name = 'Djishadow';
 		$pokemon->description = 'Dark Beetle';
 		$pokemon->type1_id = 1;
@@ -311,7 +277,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 035;
 		$pokemon->name = 'Djidrake';
 		$pokemon->description = 'Dragon Beetle';
 		$pokemon->type1_id = 1;
@@ -320,7 +285,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 036;
 		$pokemon->name = 'Djiwatt';
 		$pokemon->description = 'Electric Beetle';
 		$pokemon->type1_id = 1;
@@ -329,7 +293,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 037;
 		$pokemon->name = 'Djigleam';
 		$pokemon->description = 'Fairy Beetle';
 		$pokemon->type1_id = 1;
@@ -338,7 +301,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 038;
 		$pokemon->name = 'Djidojo';
 		$pokemon->description = 'Warrior Beetle';
 		$pokemon->type1_id = 1;
@@ -347,7 +309,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 039;
 		$pokemon->name = 'Djimmolate';
 		$pokemon->description = 'Fire Beetle';
 		$pokemon->type1_id = 1;
@@ -356,7 +317,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 040;
 		$pokemon->name = 'Djiavia';
 		$pokemon->description = 'Flying Beetle';
 		$pokemon->type1_id = 1;
@@ -365,7 +325,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 041;
 		$pokemon->name = 'Djispectre';
 		$pokemon->description = 'Ghost Beetle';
 		$pokemon->type1_id = 1;
@@ -374,7 +333,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 042;
 		$pokemon->name = 'Djibotan';
 		$pokemon->description = 'Nature Beetle';
 		$pokemon->type1_id = 1;
@@ -383,7 +341,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 043;
 		$pokemon->name = 'Djiterra';
 		$pokemon->description = 'Sand Beetle';
 		$pokemon->type1_id = 1;
@@ -392,7 +349,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 044;
 		$pokemon->name = 'Djicelsi';
 		$pokemon->description = 'Ice Beetle';
 		$pokemon->type1_id = 1;
@@ -401,7 +357,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 045;
 		$pokemon->name = 'Djinull';
 		$pokemon->description = 'Plain Beetle';
 		$pokemon->type1_id = 1;
@@ -410,7 +365,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 046;
 		$pokemon->name = 'Djitox';
 		$pokemon->description = 'Poison Beetle';
 		$pokemon->type1_id = 1;
@@ -419,7 +373,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 047;
 		$pokemon->name = 'Djisage';
 		$pokemon->description = 'Mystic Beetle';
 		$pokemon->type1_id = 1;
@@ -428,7 +381,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 048;
 		$pokemon->name = 'Djisedi';
 		$pokemon->description = 'Stone Beetle';
 		$pokemon->type1_id = 1;
@@ -437,7 +389,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 049;
 		$pokemon->name = 'Djindust';
 		$pokemon->description = 'Iron Beetle';
 		$pokemon->type1_id = 1;
@@ -446,7 +397,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 050;
 		$pokemon->name = 'Djivapor';
 		$pokemon->description = 'Water Beetle';
 		$pokemon->type1_id = 1;
@@ -455,7 +405,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 051;
 		$pokemon->name = 'Chevalittle';
 		$pokemon->description = 'Knight';
 		$pokemon->type1_id = 17;
@@ -464,7 +413,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 052;
 		$pokemon->name = 'Chevaliant';
 		$pokemon->description = 'Chevalier';
 		$pokemon->type1_id = 17;
@@ -472,7 +420,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 053;
 		$pokemon->name = 'Chevaliaymore';
 		$pokemon->description = 'Claymore';
 		$pokemon->type1_id = 17;
@@ -481,7 +428,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 054;
 		$pokemon->name = 'Chevaliarcane';
 		$pokemon->description = 'Arcane';
 		$pokemon->type1_id = 17;
@@ -490,7 +436,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 055;
 		$pokemon->name = 'Chevaliarceny';
 		$pokemon->description = 'Archer';
 		$pokemon->type1_id = 17;
@@ -499,7 +444,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 056;
 		$pokemon->name = 'Slidog';
 		$pokemon->description = 'Spare';
 		$pokemon->type1_id = 13;
@@ -509,7 +453,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 057;
 		$pokemon->name = 'Spiritard';
 		$pokemon->description = 'Mystic';
 		$pokemon->type1_id = 9;
@@ -518,7 +461,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 058;
 		$pokemon->name = 'Miimur';
 		$pokemon->description = 'Proud';
 		$pokemon->type1_id = 13;
@@ -528,7 +470,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 059;
 		$pokemon->name = 'Miimurdur';
 		$pokemon->description = 'Purebred';
 		$pokemon->type1_id = 13;
@@ -538,7 +479,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 060;
 		$pokemon->name = 'Miimacho';
 		$pokemon->description = 'Domineering';
 		$pokemon->type1_id = 10;
@@ -547,7 +487,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 061;
 		$pokemon->name = 'Bosephus';
 		$pokemon->description = 'Black Labrador';
 		$pokemon->type1_id = 13;
@@ -555,7 +494,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 062;
 		$pokemon->name = 'Glowsephus';
 		$pokemon->description = 'Fairy Dog';
 		$pokemon->type1_id = 5;
@@ -563,7 +501,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 063;
 		$pokemon->name = 'Noisephus';
 		$pokemon->description = 'Guard Dog';
 		$pokemon->type1_id = 2;
@@ -571,7 +508,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 064;
 		$pokemon->name = 'Seedsme';
 		$pokemon->description = 'Osmosis Seed';
 		$pokemon->type1_id = 10;
@@ -580,7 +516,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 065;
 		$pokemon->name = 'Eatrap';
 		$pokemon->description = 'Fly Trap';
 		$pokemon->type1_id = 10;
@@ -589,7 +524,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 066;
 		$pokemon->name = 'Hungarden';
 		$pokemon->description = 'Engorging';
 		$pokemon->type1_id = 10;
@@ -598,7 +532,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 067;
 		$pokemon->name = 'Skittegg';
 		$pokemon->description = 'Egg';
 		$pokemon->type1_id = 1;
@@ -607,7 +540,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 068;
 		$pokemon->name = 'Skitto';
 		$pokemon->description = 'Mosquito';
 		$pokemon->type1_id = 1;
@@ -616,7 +548,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 069;
 		$pokemon->name = 'Maskitto';
 		$pokemon->description = 'Poison Needle';
 		$pokemon->type1_id = 1;
@@ -625,7 +556,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 070;
 		$pokemon->name = 'Fearther';
 		$pokemon->description = 'Intimidating';
 		$pokemon->type1_id = 8;
@@ -634,7 +564,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 071;
 		$pokemon->name = 'Pterrordactyl';
 		$pokemon->description = 'When a Pterrordactyl takes up residence in an area, other life will sometimes serve it out of fear';
 		$pokemon->type1_id = 8;
@@ -643,7 +572,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 072;
 		$pokemon->name = 'Twiburn';
 		$pokemon->description = 'Tiny Ember';
 		$pokemon->type1_id = 7;
@@ -652,7 +580,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 073;
 		$pokemon->name = 'Logustion';
 		$pokemon->description = 'Brush Fire';
 		$pokemon->type1_id = 7;
@@ -661,7 +588,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 074;
 		$pokemon->name = 'Oakombust';
 		$pokemon->description = 'Forest Fire';
 		$pokemon->type1_id = 7;
@@ -670,7 +596,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 075;
 		$pokemon->name = 'Terrairy';
 		$pokemon->description = 'Earth Fairy';
 		$pokemon->type1_id = 5;
@@ -680,7 +605,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 076;
 		$pokemon->name = 'Extround';
 		$pokemon->description = 'Earth Fairy';
 		$pokemon->type1_id = 5;
@@ -689,7 +613,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 077;
 		$pokemon->name = 'Sirenvian';
 		$pokemon->description = 'Siren';
 		$pokemon->type1_id = 18;
@@ -698,7 +621,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 078;
 		$pokemon->name = 'Magholia';
 		$pokemon->description = 'Fighting Guinea Pig';
 		$pokemon->type1_id = 9;
@@ -707,7 +629,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 079;
 		$pokemon->name = 'Lillianil';
 		$pokemon->description = 'Elegant Guinea Pig';
 		$pokemon->type1_id = 9;
@@ -716,7 +637,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 080;
 		$pokemon->name = 'Mammusk';
 		$pokemon->description = 'Mammoth';
 		$pokemon->type1_id = 12;
@@ -725,7 +645,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 081;
 		$pokemon->name = 'Mammonk';
 		$pokemon->description = 'Reflective';
 		$pokemon->type1_id = 12;
@@ -735,7 +654,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 082;
 		$pokemon->name = 'Mammophant';
 		$pokemon->description = 'Respected even among Geosabre, Mommophant live in small groups and use their psychic power to alter the weather and try to save as many Mammusk as they can';
 		$pokemon->type1_id = 12;
@@ -744,7 +662,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 083;
 		$pokemon->name = 'Stratust';
 		$pokemon->description = 'Cloud';
 		$pokemon->type1_id = 4;
@@ -754,7 +671,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 084;
 		$pokemon->name = 'Nimblast';
 		$pokemon->description = 'Storm Cloud';
 		$pokemon->type1_id = 4;
@@ -764,7 +680,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 085;
 		$pokemon->name = 'Cumulohm';
 		$pokemon->description = 'Resistance';
 		$pokemon->type1_id = 4;
@@ -773,7 +688,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 086;
 		$pokemon->name = 'Ankloc';
 		$pokemon->description = 'Club';
 		$pokemon->type1_id = 16;
@@ -782,7 +696,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 087;
 		$pokemon->name = 'Anklojitsu';
 		$pokemon->description = 'Club Tail';
 		$pokemon->type1_id = 16;
@@ -792,7 +705,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 088;
 		$pokemon->name = 'Anklokussion';
 		$pokemon->description = 'Blunt Trauma';
 		$pokemon->type1_id = 16;
@@ -801,7 +713,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 089;
 		$pokemon->name = 'Sedimoan';
 		$pokemon->description = 'Rock Spirit';
 		$pokemon->type1_id = 9;
@@ -811,7 +722,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 090;
 		$pokemon->name = 'Lavenged';
 		$pokemon->description = 'Rock Spirit';
 		$pokemon->type1_id = 9;
@@ -820,7 +730,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 091;
 		$pokemon->name = 'Pixitox';
 		$pokemon->description = 'Poison Pixie';
 		$pokemon->type1_id = 5;
@@ -830,7 +739,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 092;
 		$pokemon->name = 'Chemuse';
 		$pokemon->description = 'Poison Pixie';
 		$pokemon->type1_id = 5;
@@ -839,7 +747,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 093;
 		$pokemon->name = 'Pyrag';
 		$pokemon->description = 'Pyramid';
 		$pokemon->type1_id = 17;
@@ -849,7 +756,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 094;
 		$pokemon->name = 'Pyragear';
 		$pokemon->description = 'Mechanism';
 		$pokemon->type1_id = 17;
@@ -859,7 +765,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 095;
 		$pokemon->name = 'Pyragyro';
 		$pokemon->description = 'Generator';
 		$pokemon->type1_id = 17;
@@ -868,7 +773,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 096;
 		$pokemon->name = 'Dagaclaw';
 		$pokemon->description = 'Thief';
 		$pokemon->type1_id = 2;
@@ -877,7 +781,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 097;
 		$pokemon->name = 'Dagatail';
 		$pokemon->description = 'Dagger Tail';
 		$pokemon->type1_id = 2;
@@ -887,7 +790,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 098;
 		$pokemon->name = 'Dagafeather';
 		$pokemon->description = 'Assassin';
 		$pokemon->type1_id = 2;
@@ -896,7 +798,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 099;
 		$pokemon->name = 'Potatolon';
 		$pokemon->description = 'Mischief Chinchilla';
 		$pokemon->type1_id = 17;
@@ -905,7 +806,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 100;
 		$pokemon->name = 'Hammond';
 		$pokemon->description = 'Hammond';
 		$pokemon->type1_id = 13;
@@ -914,7 +814,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 101;
 		$pokemon->name = 'Brontoyal';
 		$pokemon->description = 'Long Neck';
 		$pokemon->type1_id = 10;
@@ -924,7 +823,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 102;
 		$pokemon->name = 'Diplomicus';
 		$pokemon->description = 'Regal';
 		$pokemon->type1_id = 10;
@@ -934,7 +832,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 103;
 		$pokemon->name = 'Imperiodicus';
 		$pokemon->description = 'Monarch';
 		$pokemon->type1_id = 10;
@@ -943,7 +840,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 104;
 		$pokemon->name = 'Pangolic';
 		$pokemon->description = 'Armor';
 		$pokemon->type1_id = 11;
@@ -953,7 +849,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 105;
 		$pokemon->name = 'Pangorrosive';
 		$pokemon->description = 'Spiny Armor';
 		$pokemon->type1_id = 11;
@@ -962,7 +857,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 106;
 		$pokemon->name = 'Scaldander';
 		$pokemon->description = 'Salamander';
 		$pokemon->type1_id = 7;
@@ -970,7 +864,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 107;
 		$pokemon->name = 'Scladavolt';
 		$pokemon->description = 'Electric Salamander';
 		$pokemon->type1_id = 7;
@@ -979,7 +872,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 108;
 		$pokemon->name = 'Scaldabloom';
 		$pokemon->description = 'Plant Salamander';
 		$pokemon->type1_id = 7;
@@ -988,7 +880,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 109;
 		$pokemon->name = 'Scallice';
 		$pokemon->description = 'Icy Salamander';
 		$pokemon->type1_id = 7;
@@ -997,7 +888,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 110;
 		$pokemon->name = 'Scallent';
 		$pokemon->description = 'Water Salamander';
 		$pokemon->type1_id = 7;
@@ -1006,7 +896,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 111;
 		$pokemon->name = 'Frozamie';
 		$pokemon->description = 'Snow Fairy';
 		$pokemon->type1_id = 5;
@@ -1016,7 +905,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 112;
 		$pokemon->name = 'Friezamore';
 		$pokemon->description = 'Snow Fairy';
 		$pokemon->type1_id = 5;
@@ -1025,7 +913,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 113;
 		$pokemon->name = 'Cryorganic';
 		$pokemon->description = 'Toxic Ice';
 		$pokemon->type1_id = 12;
@@ -1034,7 +921,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 114;
 		$pokemon->name = 'Telekinizard';
 		$pokemon->description = 'Psychic Lizard';
 		$pokemon->type1_id = 15;
@@ -1043,7 +929,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 115;
 		$pokemon->name = 'Telekiguana';
 		$pokemon->description = 'Psychic Iguana';
 		$pokemon->type1_id = 15;
@@ -1052,7 +937,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 116;
 		$pokemon->name = 'Telekwyrm';
 		$pokemon->description = 'Psychic Drake';
 		$pokemon->type1_id = 15;
@@ -1061,7 +945,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 117;
 		$pokemon->name = 'Desegrave';
 		$pokemon->description = 'Hallowed';
 		$pokemon->type1_id = 11;
@@ -1071,7 +954,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 118;
 		$pokemon->name = 'Desequake';
 		$pokemon->description = 'Crypt';
 		$pokemon->type1_id = 11;
@@ -1080,7 +962,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 119;
 		$pokemon->name = 'Lutapara';
 		$pokemon->description = 'Bard';
 		$pokemon->type1_id = 13;
@@ -1090,7 +971,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 120;
 		$pokemon->name = 'Troubasauralophus';
 		$pokemon->description = 'Troubadour';
 		$pokemon->type1_id = 13;
@@ -1099,7 +979,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 121;
 		$pokemon->name = 'Giftaimen';
 		$pokemon->description = 'Caiman';
 		$pokemon->type1_id = 18;
@@ -1109,7 +988,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 122;
 		$pokemon->name = 'Giftodile';
 		$pokemon->description = 'Crocodile';
 		$pokemon->type1_id = 18;
@@ -1119,7 +997,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 123;
 		$pokemon->name = 'Giftogator';
 		$pokemon->description = 'Alligator';
 		$pokemon->type1_id = 18;
@@ -1128,7 +1005,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 124;
 		$pokemon->name = 'Morrigant';
 		$pokemon->description = 'Sea Dog';
 		$pokemon->type1_id = 9;
@@ -1138,7 +1014,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 125;
 		$pokemon->name = 'Morritide';
 		$pokemon->description = 'Sea Labrador';
 		$pokemon->type1_id = 9;
@@ -1148,7 +1023,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 126;
 		$pokemon->name = 'Morrimaid';
 		$pokemon->description = 'Mermaid';
 		$pokemon->type1_id = 9;
@@ -1157,7 +1031,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 127;
 		$pokemon->name = 'Asterint';
 		$pokemon->description = 'Comet';
 		$pokemon->type1_id = 16;
@@ -1166,7 +1039,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 128;
 		$pokemon->name = 'Asterthought';
 		$pokemon->description = 'Asteroid';
 		$pokemon->type1_id = 16;
@@ -1176,7 +1048,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 129;
 		$pokemon->name = 'Astermind';
 		$pokemon->description = 'Meteor';
 		$pokemon->type1_id = 16;
@@ -1185,7 +1056,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 130;
 		$pokemon->name = 'Volcone';
 		$pokemon->description = 'Budding Volcano';
 		$pokemon->type1_id = 7;
@@ -1195,7 +1065,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 131;
 		$pokemon->name = 'Volcrater';
 		$pokemon->description = 'Volcano';
 		$pokemon->type1_id = 7;
@@ -1205,7 +1074,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 132;
 		$pokemon->name = 'Volcrevice';
 		$pokemon->description = 'Volcanic Valley';
 		$pokemon->type1_id = 7;
@@ -1214,7 +1082,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 133;
 		$pokemon->name = 'Snolar';
 		$pokemon->description = 'Cub';
 		$pokemon->type1_id = 13;
@@ -1224,7 +1091,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 134;
 		$pokemon->name = 'Snivvur';
 		$pokemon->description = 'Polar Bear';
 		$pokemon->type1_id = 4;
@@ -1233,7 +1099,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 135;
 		$pokemon->name = 'Delicare';
 		$pokemon->description = 'Sweet';
 		$pokemon->type1_id = 8;
@@ -1243,7 +1108,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 136;
 		$pokemon->name = 'Deliconcern';
 		$pokemon->description = 'Caring';
 		$pokemon->type1_id = 8;
@@ -1253,7 +1117,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 137;
 		$pokemon->name = 'Delimpathy';
 		$pokemon->description = 'Empathetic';
 		$pokemon->type1_id = 15;
@@ -1262,7 +1125,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 138;
 		$pokemon->name = 'Shotany';
 		$pokemon->description = 'Electric Plant';
 		$pokemon->type1_id = 10;
@@ -1272,7 +1134,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 139;
 		$pokemon->name = 'Shotanical';
 		$pokemon->description = 'Electric Garden';
 		$pokemon->type1_id = 10;
@@ -1281,7 +1142,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 140;
 		$pokemon->name = 'Noctmet';
 		$pokemon->description = 'Helmet';
 		$pokemon->type1_id = 2;
@@ -1290,7 +1150,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 141;
 		$pokemon->name = 'Noctoval';
 		$pokemon->description = 'Circular';
 		$pokemon->type1_id = 2;
@@ -1299,7 +1158,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 142;
 		$pokemon->name = 'Noctagon';
 		$pokemon->description = 'Black Dragon';
 		$pokemon->type1_id = 2;
@@ -1308,7 +1166,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 143;
 		$pokemon->name = 'Growbra';
 		$pokemon->description = 'Cobra';
 		$pokemon->type1_id = 10;
@@ -1317,7 +1174,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 144;
 		$pokemon->name = 'Pasgon';
 		$pokemon->description = 'Ancient Fledgling';
 		$pokemon->type1_id = 9;
@@ -1327,7 +1183,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 145;
 		$pokemon->name = 'Yeoldra';
 		$pokemon->description = 'Ancient Dragon';
 		$pokemon->type1_id = 9;
@@ -1337,7 +1192,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 146;
 		$pokemon->name = 'Anciennevyrn';
 		$pokemon->description = 'Ancient Wyvern';
 		$pokemon->type1_id = 9;
@@ -1346,7 +1200,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 147;
 		$pokemon->name = 'Aerioyal';
 		$pokemon->description = 'Pteranodon';
 		$pokemon->type1_id = 8;
@@ -1355,7 +1208,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 148;
 		$pokemon->name = 'Tyranizor';
 		$pokemon->description = 'Tyrant';
 		$pokemon->type1_id = 16;
@@ -1364,7 +1216,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 149;
 		$pokemon->name = 'Lioplorodeep';
 		$pokemon->description = 'Deep-Sea Terror';
 		$pokemon->type1_id = 18;
@@ -1373,7 +1224,6 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
-		$pokemon->number = 150;
 		$pokemon->name = 'Wyrmgon';
 		$pokemon->description = 'Gold';
 		$pokemon->type1_id = 3;
