@@ -21,6 +21,8 @@ class CreatePokemonTable extends Migration {
 			$table->foreign('type1_id')->references('id')->on('types');
 			$table->integer('type2_id')->unsigned()->nullable();
 			$table->foreign('type2_id')->references('id')->on('types');
+			$table->integer('evolve_level')->unsigned()->nullable();
+			$table->string('evolve_method')->nullable();
 			$table->string('entry', 1000000);
 			$table->timestamps();
 

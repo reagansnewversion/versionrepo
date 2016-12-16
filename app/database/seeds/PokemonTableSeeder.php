@@ -773,270 +773,270 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon = new Pokemon();
 		$pokemon->number = 101;
 		$pokemon->name = 'Brontoyal';
-		$pokemon->description = '';
+		$pokemon->description = 'Long Neck';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 3;
-		$pokemon->entry = '';
+		$pokemon->entry = 'At birth it stands head and shoulders above other life forms.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 102;
 		$pokemon->name = 'Diplomicus';
-		$pokemon->description = '';
+		$pokemon->description = 'Regal';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 3;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Diplomicus that are not selected to lead their herds sometimes travel as envoys to other herds.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 103;
 		$pokemon->name = 'Imperiodicus';
-		$pokemon->description = '';
+		$pokemon->description = 'Monarch';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 3;
-		$pokemon->entry = '';
+		$pokemon->entry = 'In every herd, a male and female Diplomicus are selected to lead. They then produce the next generation of Brontoyal.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 104;
 		$pokemon->name = 'Pangolic';
-		$pokemon->description = '';
+		$pokemon->description = 'Armor';
 		$pokemon->type1_id = 11;
 		$pokemon->type2_id = 14;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It produces a weak poison in its nails that can leave predators feeling sick.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 105;
 		$pokemon->name = 'Pangorrosive';
-		$pokemon->description = '';
+		$pokemon->description = 'Spiny Armor';
 		$pokemon->type1_id = 11;
 		$pokemon->type2_id = 14;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It defends itself by shooting poison from gaps in its armor. Any creature that comes into contact with this poison cannot be cured.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 106;
 		$pokemon->name = 'Scaldander';
-		$pokemon->description = '';
+		$pokemon->description = 'Salamander';
 		$pokemon->type1_id = 7;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It adapts to whatever environment it lives in. It is said that it and Djibeetle share a common ancestor.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 107;
 		$pokemon->name = 'Scladavolt';
-		$pokemon->description = '';
+		$pokemon->description = 'Electric Salamander';
 		$pokemon->type1_id = 7;
 		$pokemon->type2_id = 4;
-		$pokemon->entry = '';
+		$pokemon->entry = 'In the rare event that a Scaldander is struck by lightning, its body adapts, believing the electricity to be part of its environment.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 108;
 		$pokemon->name = 'Scaldabloom';
-		$pokemon->description = '';
+		$pokemon->description = 'Plant Salamander';
 		$pokemon->type1_id = 7;
 		$pokemon->type2_id = 10;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Many Scaldander settle down in forests. These Scaldander grow new life on their bodies, using their heat to give this new life energy.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 109;
 		$pokemon->name = 'Scallice';
-		$pokemon->description = '';
+		$pokemon->description = 'Icy Salamander';
 		$pokemon->type1_id = 7;
 		$pokemon->type2_id = 12;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Few Scaldander end up settling in the north, but those that do become Scallice. Scallice can survive in any temperature.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 110;
 		$pokemon->name = 'Scallent';
-		$pokemon->description = '';
+		$pokemon->description = 'Water Salamander';
 		$pokemon->type1_id = 7;
 		$pokemon->type2_id = 18;
-		$pokemon->entry = '';
+		$pokemon->entry = 'For Scaldander that settle by rivers and lakes and become Scallent, a protective layer of fat forms around them, protecting their flames.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 111;
 		$pokemon->name = 'Frozamie';
-		$pokemon->description = '';
+		$pokemon->description = 'Snow Fairy';
 		$pokemon->type1_id = 5;
 		$pokemon->type2_id = 12;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It wanders the icy north, causing plants to groom despite the harsh climate.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 112;
 		$pokemon->name = 'Friezamore';
-		$pokemon->description = '';
+		$pokemon->description = 'Snow Fairy';
 		$pokemon->type1_id = 5;
 		$pokemon->type2_id = 12;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Of the few Mammusk that survive until adulthood, most owe their survival to Friezamore. Friezamore and their Mammophant become lifelong friends.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 113;
 		$pokemon->name = 'Cryorganic';
-		$pokemon->description = '';
+		$pokemon->description = 'Toxic Ice';
 		$pokemon->type1_id = 12;
 		$pokemon->type2_id = 14;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It blends in with icicles and poisons any potential prey that passes under it.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 114;
 		$pokemon->name = 'Telekinizard';
-		$pokemon->description = '';
+		$pokemon->description = 'Psychic Lizard';
 		$pokemon->type1_id = 15;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It catches Skittegg by holding it in place with its psychic power.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 115;
 		$pokemon->name = 'Telekiguana';
-		$pokemon->description = '';
+		$pokemon->description = 'Psychic Iguana';
 		$pokemon->type1_id = 15;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It bends the light around it to become invisible to prey. However, it is in this state that it is most vulnerable to attacks by Growbra.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 116;
 		$pokemon->name = 'Telekwyrm';
-		$pokemon->description = '';
+		$pokemon->description = 'Psychic Drake';
 		$pokemon->type1_id = 15;
 		$pokemon->type2_id = 3;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It feeds on fairy-types, using its psychic power to defend itself from their attacks.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 117;
 		$pokemon->name = 'Desegrave';
-		$pokemon->description = '';
+		$pokemon->description = 'Hallowed';
 		$pokemon->type1_id = 11;
 		$pokemon->type2_id = 9;
-		$pokemon->entry = '';
+		$pokemon->entry = 'When a Terrairy dies in defense of its land, it is said that its spirit possesses the land, thus forming Desegrave.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 118;
 		$pokemon->name = 'Desequake';
-		$pokemon->description = '';
+		$pokemon->description = 'Crypt';
 		$pokemon->type1_id = 11;
 		$pokemon->type2_id = 9;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It absorbs the souls of any living being that enters its territory.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 119;
 		$pokemon->name = 'Lutapara';
-		$pokemon->description = '';
+		$pokemon->description = 'Bard';
 		$pokemon->type1_id = 13;
 		$pokemon->type2_id = 17;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It sings all day with its pack. If its rough hide were not disliked by predators, the noisse would bring them in droves.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 120;
 		$pokemon->name = 'Troubasauralophus';
-		$pokemon->description = '';
+		$pokemon->description = 'Troubadour';
 		$pokemon->type1_id = 13;
 		$pokemon->type2_id = 17;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Human musicians have tried to mimic its song through the years. Not one musician has proven capable of doing so.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 121;
 		$pokemon->name = 'Giftaimen';
-		$pokemon->description = '';
+		$pokemon->description = 'Caiman';
 		$pokemon->type1_id = 18;
 		$pokemon->type2_id = 14;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It poisons small fish with its teeth. It is not completely resistant to its own poison yet, so the only Giftaimen that survive are the ones that adapt.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 122;
 		$pokemon->name = 'Giftodile';
-		$pokemon->description = '';
+		$pokemon->description = 'Crocodile';
 		$pokemon->type1_id = 18;
 		$pokemon->type2_id = 14;
-		$pokemon->entry = '';
+		$pokemon->entry = 'When a Giftaimen builds up a strong enough poison resistance, it evolves and develops a new type of poison. Then the cycle begins again.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 123;
 		$pokemon->name = 'Giftogator';
-		$pokemon->description = '';
+		$pokemon->description = 'Alligator';
 		$pokemon->type1_id = 18;
 		$pokemon->type2_id = 14;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Giftogator can resist any kind of poison. The only Giftogator that exist are ones that survived Giftaimen and Giftodile poison.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 124;
 		$pokemon->name = 'Morrigant';
-		$pokemon->description = '';
+		$pokemon->description = 'Sea Dog';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 18;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It is celebrated for its beauty, and it is often used as a pet.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 125;
 		$pokemon->name = 'Morritide';
-		$pokemon->description = '';
+		$pokemon->description = 'Sea Labrador';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 18;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Waves on nearby bodies of water move in sync with its heartbeat.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 126;
 		$pokemon->name = 'Morrimaid';
-		$pokemon->description = '';
+		$pokemon->description = 'Mermaid';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 18;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It sits by the shore and watches the waves roll by. It does not seek conflict and no creatures seek conflict with it.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 127;
 		$pokemon->name = 'Asterint';
-		$pokemon->description = '';
+		$pokemon->description = 'Comet';
 		$pokemon->type1_id = 16;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It did not originate on Earth. Every few years, multiple Asterint come to the planet through meteor showers.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 128;
 		$pokemon->name = 'Asterthought';
-		$pokemon->description = '';
+		$pokemon->description = 'Asteroid';
 		$pokemon->type1_id = 16;
 		$pokemon->type2_id = 15;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It emits a strange signal that appears to move items in close proximity.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 129;
 		$pokemon->name = 'Astermind';
-		$pokemon->description = '';
+		$pokemon->description = 'Meteor';
 		$pokemon->type1_id = 16;
 		$pokemon->type2_id = 15;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It floats above the ground and seems to wander the Earth with no purpose. Multiple migrations have been observed, but no reason has been discovered yet.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 130;
 		$pokemon->name = 'Volcone';
-		$pokemon->description = '';
+		$pokemon->description = 'Budding Volcano';
 		$pokemon->type1_id = 7;
 		$pokemon->type2_id = 11;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Very few have been observed because they resemble hills. They are incapable of much more than minor combat.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 131;
 		$pokemon->name = 'Volcrater';
-		$pokemon->description = '';
+		$pokemon->description = 'Volcano';
 		$pokemon->type1_id = 7;
 		$pokemon->type2_id = 11;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It stores lava in its system. It is theorized that this lava is akin to blood in the human body.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 132;
 		$pokemon->name = 'Volcrevice';
-		$pokemon->description = '';
+		$pokemon->description = 'Volcanic Valley';
 		$pokemon->type1_id = 7;
 		$pokemon->type2_id = 11;
-		$pokemon->entry = '';
+		$pokemon->entry = 'When angered, it causes a volcanic eruption and causes mile-long lava flows.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 133;
 		$pokemon->name = 'Snolar';
-		$pokemon->description = '';
+		$pokemon->description = 'Cub';
 		$pokemon->type1_id = 13;
 		$pokemon->type2_id = 12;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Even in infancy, Snolar are capable of surviving harsh conditions and have no natural predators.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 134;
 		$pokemon->name = 'Snivvur';
-		$pokemon->description = '';
+		$pokemon->description = 'Polar Bear';
 		$pokemon->type1_id = 4;
 		$pokemon->type2_id = 12;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Its fur generates electricity that it uses as a form of communication with other Snivvur.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 135;
