@@ -1041,42 +1041,42 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon = new Pokemon();
 		$pokemon->number = 135;
 		$pokemon->name = 'Delicare';
-		$pokemon->description = '';
+		$pokemon->description = 'Sweet';
 		$pokemon->type1_id = 8;
 		$pokemon->type2_id = 5;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It will sometimes starve itself by handing all of its food to other organisms in need.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 136;
 		$pokemon->name = 'Deliconcern';
-		$pokemon->description = '';
+		$pokemon->description = 'Caring';
 		$pokemon->type1_id = 8;
 		$pokemon->type2_id = 5;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Many venture north wanting to care for Mammusk. None can survive the cold, however, some they settle in the forests bordering the north.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 137;
 		$pokemon->name = 'Delimpathy';
-		$pokemon->description = '';
+		$pokemon->description = 'Empathetic';
 		$pokemon->type1_id = 15;
 		$pokemon->type2_id = 5;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It can sense the feelings of other organisms. If it senses distress, it will relocate even if the distressed creature is on the other side of the region.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 138;
 		$pokemon->name = 'Shotany';
-		$pokemon->description = '';
+		$pokemon->description = 'Electric Plant';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 4;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It converts energy from the sun into electricity, which it uses to survive the winter.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 139;
 		$pokemon->name = 'Shotanical';
-		$pokemon->description = '';
+		$pokemon->description = 'Electric Garden';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 4;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Herbivores in the region learn quickly to distinguish Shotanical from other plants. Anything that touches a Shotanical becomes paralyzed.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 140;
