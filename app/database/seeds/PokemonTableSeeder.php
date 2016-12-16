@@ -587,43 +587,43 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Siren';
 		$pokemon->type1_id = 18;
 		$pokemon->type2_id = 8;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It is known for luring sailors to rocks and scavenging ship ruins for shiny baubels. Its song can entrance even the most disciplined minds';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 078;
 		$pokemon->name = 'Magholia';
-		$pokemon->description = '';
+		$pokemon->description = 'Fighting Guinea Pig';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 6;
-		$pokemon->entry = '';
+		$pokemon->entry = 'No enemy is too large for it. It consistently challenges predators many times its own size';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 079;
 		$pokemon->name = 'Lillianil';
-		$pokemon->description = '';
+		$pokemon->description = 'Elegant Guinea Pig';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 5;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Kings treasured Lillianil for its flowing skirt. For a kingdom to possess multiple Lillianil was a sign of great wealth';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 080;
 		$pokemon->name = 'Mammusk';
-		$pokemon->description = '';
+		$pokemon->description = 'Mammoth';
 		$pokemon->type1_id = 12;
-		$pokemon->entry = '';
+		$pokemon->entry = 'They are hunted relentlessly by Geosabre. As a result, many do not survive to adulthood';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 081;
 		$pokemon->name = 'Mammonk';
-		$pokemon->description = '';
+		$pokemon->description = 'Reflective';
 		$pokemon->type1_id = 12;
 		$pokemon->type2_id = 15;
-		$pokemon->entry = '';
+		$pokemon->entry = 'As a Mammusk reaches adulthood, it seeks a life of solitude because of the hardships it faced. In its solitude, it gains psychic power.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 082;
 		$pokemon->name = 'Mammophant';
-		$pokemon->description = '';
+		$pokemon->description = 'Respected even among Geosabre, Mommophant live in small groups and use their psychic power to alter the weather and try to save as many Mammusk as they can';
 		$pokemon->type1_id = 12;
 		$pokemon->type2_id = 15;
 		$pokemon->entry = '';
@@ -631,136 +631,136 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon = new Pokemon();
 		$pokemon->number = 083;
 		$pokemon->name = 'Stratust';
-		$pokemon->description = '';
+		$pokemon->description = 'Cloud';
 		$pokemon->type1_id = 4;
 		$pokemon->type2_id = 8;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Capable of little more than light showers, Stratust remain close to Nimblast and learn to channel electricity.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 084;
 		$pokemon->name = 'Nimblast';
-		$pokemon->description = '';
+		$pokemon->description = 'Storm Cloud';
 		$pokemon->type1_id = 4;
 		$pokemon->type2_id = 8;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Nimblast compete amonst themselves to determine which can produce the most energy. When this occurs, massive thunderstorms appear in the region.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 085;
 		$pokemon->name = 'Cumulohm';
-		$pokemon->description = '';
+		$pokemon->description = 'Resistance';
 		$pokemon->type1_id = 4;
 		$pokemon->type2_id = 8;
-		$pokemon->entry = '';
+		$pokemon->entry = 'If a Nimblast causes a natural disaster, it evolves into Cumulohm. It spends the rest of its life storing up its electricty and refuses to release it unless it is absolutely necessary.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 086;
 		$pokemon->name = 'Ankloc';
-		$pokemon->description = '';
+		$pokemon->description = 'Club';
 		$pokemon->type1_id = 16;
-		$pokemon->entry = '';
+		$pokemon->entry = 'When many gather in one place, they hit trees with their club tails. The sound can be heard for miles.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 087;
 		$pokemon->name = 'Anklojitsu';
-		$pokemon->description = '';
+		$pokemon->description = 'Club Tail';
 		$pokemon->type1_id = 16;
 		$pokemon->type2_id = 6;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It uses the club on its tail primarily as a warning to potential predators, but it can also break bones easily';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 088;
 		$pokemon->name = 'Anklokussion';
-		$pokemon->description = '';
+		$pokemon->description = 'Blunt Trauma';
 		$pokemon->type1_id = 16;
 		$pokemon->type2_id = 6;
-		$pokemon->entry = '';
+		$pokemon->entry = "Though it is slow to anger, one swipe from its clubbed tail is enough to break every bone in an organism's body";
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 089;
 		$pokemon->name = 'Sedimoan';
-		$pokemon->description = '';
+		$pokemon->description = 'Rock Spirit';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 11;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Legends say it is created when a wandering spirit attaches to a rock burned by lava from a volcanic eruption.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 090;
 		$pokemon->name = 'Lavenged';
-		$pokemon->description = '';
+		$pokemon->description = 'Rock Spirit';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 11;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Though it cannot control fire, Lavenged is said to burn its foes through sheer will.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 091;
 		$pokemon->name = 'Pixitox';
-		$pokemon->description = '';
+		$pokemon->description = 'Poison Pixie';
 		$pokemon->type1_id = 5;
 		$pokemon->type2_id = 14;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It is said that Pixitox was created when a Terrairy attached itself to polluted land.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 092;
 		$pokemon->name = 'Chemuse';
-		$pokemon->description = '';
+		$pokemon->description = 'Poison Pixie';
 		$pokemon->type1_id = 5;
 		$pokemon->type2_id = 14;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It corrupts every piece of land it attaches to. It is said that other living things feel sickly just standing outside of its territory.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 093;
 		$pokemon->name = 'Pyrag';
-		$pokemon->description = '';
+		$pokemon->description = 'Pyramid';
 		$pokemon->type1_id = 17;
 		$pokemon->type2_id = 4;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Its area of origin is unknown, but it seems to comprehend human speech flawlessly.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 094;
 		$pokemon->name = 'Pyragear';
-		$pokemon->description = '';
+		$pokemon->description = 'Mechanism';
 		$pokemon->type1_id = 17;
 		$pokemon->type2_id = 4;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Its gears rotate at all hours of the day. The purpose of this activity is unknown.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 095;
 		$pokemon->name = 'Pyragyro';
-		$pokemon->description = '';
+		$pokemon->description = 'Generator';
 		$pokemon->type1_id = 17;
 		$pokemon->type2_id = 4;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Pyragyro are typically used as sources of power, though the energy it produces is not necessarily electricity.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 096;
 		$pokemon->name = 'Dagaclaw';
-		$pokemon->description = '';
+		$pokemon->description = 'Thief';
 		$pokemon->type1_id = 2;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It uses its hook-like claws to grab eggs. The sight of it causes other organisms to guard their nests.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 097;
 		$pokemon->name = 'Dagatail';
-		$pokemon->description = '';
+		$pokemon->description = 'Dagger Tail';
 		$pokemon->type1_id = 2;
 		$pokemon->type2_id = 6;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Its tail is made up of several bones that separate and form a whip-like razor. It can straighten and separate individual bones on its tail at will.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 098;
 		$pokemon->name = 'Dagafeather';
-		$pokemon->description = '';
+		$pokemon->description = 'Assassin';
 		$pokemon->type1_id = 2;
 		$pokemon->type2_id = 6;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It is rarely seen, but its handiwork can always be observed. It eats only small parts of its prey and leaves the rest in a ritualistic assembly.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 099;
 		$pokemon->name = 'Potatolon';
-		$pokemon->description = '';
+		$pokemon->description = 'Mischief Chinchilla';
 		$pokemon->type1_id = 17;
 		$pokemon->type2_id = 3;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It will go out of its way to bother any living creature in its path. It is known for carrying microscopic everyday items with it.';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 100;
