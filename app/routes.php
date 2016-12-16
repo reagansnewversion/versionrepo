@@ -19,4 +19,4 @@ Route::get('/', function()
 
 Route::get('/pokedex', 'DexController@index');
 
-Route::get('/pokedex/{number}', 'DexController@show');
+Route::get('/pokedex/{id}', 'DexController@show');
