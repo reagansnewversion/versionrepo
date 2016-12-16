@@ -9,6 +9,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->type1_id = 10;
 		$pokemon->evolve_level = 17;
 		$pokemon->entry = 'Stegaseed lives its entire life in search of nutrients';
+		$pokemon->img_url = "/img/Stegaseed.png";
 		$pokemon->save();
 
 		$pokemon = new Pokemon();
@@ -16,6 +17,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Growth';
 		$pokemon->type1_id = 10;
 		$pokemon->evolve_level = 34;
+		$pokemon->img_url = "/img/Stegastalk.png";
 		$pokemon->entry = 'It is incredibly defensive of the stalk that grows on its back';
 		$pokemon->save();
 
