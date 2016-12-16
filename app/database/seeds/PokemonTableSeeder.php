@@ -487,58 +487,58 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon = new Pokemon();
 		$pokemon->number = 064;
 		$pokemon->name = 'Seedsme';
-		$pokemon->description = '';
+		$pokemon->description = 'Osmosis Seed';
 		$pokemon->type1_id = 10;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It absorbs all things smaller than it, growing slightly larger every time it feeds';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 065;
 		$pokemon->name = 'Eatrap';
-		$pokemon->description = '';
+		$pokemon->description = 'Fly Trap';
 		$pokemon->type1_id = 10;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It uses its jaws to eat passing Skittegg and Skitto. Whenever it feeds, it uses the outer shell of its prey to bolster its defenses';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 066;
 		$pokemon->name = 'Hungarden';
-		$pokemon->description = '';
+		$pokemon->description = 'Engorging';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 17;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It spends its entire day eating. Its thick steel exterior prevents its meals from being interrupted';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 067;
 		$pokemon->name = 'Skittegg';
-		$pokemon->description = '';
+		$pokemon->description = 'Egg';
 		$pokemon->type1_id = 1;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Only 1/4 of Skittegg survive to become Skitto. They can be found in large groups on lakebeds';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 068;
 		$pokemon->name = 'Skitto';
-		$pokemon->description = '';
+		$pokemon->description = 'Mosquito';
 		$pokemon->type1_id = 1;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It subsists off of blood. It flies nonstop in search of hosts';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 069;
 		$pokemon->name = 'Maskitto';
-		$pokemon->description = '';
+		$pokemon->description = 'Poison Needle';
 		$pokemon->type1_id = 1;
 		$pokemon->type2_id = 14;
-		$pokemon->entry = '';
+		$pokemon->entry = 'When it finds a proper host, it poisons the host and uses it as its sole source of blood';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 070;
 		$pokemon->name = 'Fearther';
-		$pokemon->description = '';
+		$pokemon->description = 'Intimidating';
 		$pokemon->type1_id = 8;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It travels in flocks of ten to twenty. The sight of a flock of Fearther is enough to scare other life from their territory';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 071;
 		$pokemon->name = 'Pterrordactyl';
-		$pokemon->description = '';
+		$pokemon->description = 'When a Pterrordactyl takes up residence in an area, other life will sometimes serve it out of fear';
 		$pokemon->type1_id = 8;
 		$pokemon->type2_id = 2;
 		$pokemon->entry = '';
@@ -546,21 +546,21 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon = new Pokemon();
 		$pokemon->number = 072;
 		$pokemon->name = 'Twiburn';
-		$pokemon->description = '';
+		$pokemon->description = 'Tiny Ember';
 		$pokemon->type1_id = 7;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Its lifespan is very short. It lives for as long as it can continue to consume its host twig';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 073;
 		$pokemon->name = 'Logustion';
-		$pokemon->description = '';
+		$pokemon->description = 'When a Twiburn scatters its flames to other twigs, they come together to form a Logustion';
 		$pokemon->type1_id = 7;
 		$pokemon->entry = '';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 074;
 		$pokemon->name = 'Oakombust';
-		$pokemon->description = '';
+		$pokemon->description = 'When a Logustion sets a tree ablaze, it evolves into Oakombust. Oakombust can live for thousands of years';
 		$pokemon->type1_id = 7;
 		$pokemon->type2_id = 9;
 		$pokemon->entry = '';
@@ -568,23 +568,23 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon = new Pokemon();
 		$pokemon->number = 075;
 		$pokemon->name = 'Terrairy';
-		$pokemon->description = '';
+		$pokemon->description = 'Earth Fairy';
 		$pokemon->type1_id = 5;
 		$pokemon->type2_id = 11;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It protects the small plots of land it settles on, appeasing attackers if they cannot be defeated';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 076;
 		$pokemon->name = 'Extround';
-		$pokemon->description = '';
+		$pokemon->description = 'Earth Fairy';
 		$pokemon->type1_id = 5;
 		$pokemon->type2_id = 11;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It will sometimes destroy entire forests to protect the soil it makes its home in';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 077;
 		$pokemon->name = 'Sirenvian';
-		$pokemon->description = '';
+		$pokemon->description = 'Siren';
 		$pokemon->type1_id = 18;
 		$pokemon->type2_id = 8;
 		$pokemon->entry = '';
