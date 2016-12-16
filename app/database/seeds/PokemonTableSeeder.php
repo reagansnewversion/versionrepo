@@ -388,101 +388,101 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon = new Pokemon();
 		$pokemon->number = 051;
 		$pokemon->name = 'Chevalittle';
-		$pokemon->description = '';
+		$pokemon->description = 'Knight';
 		$pokemon->type1_id = 17;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It is born into a life of constant warfare. It learns combat before it learns how to search for food';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 052;
 		$pokemon->name = 'Chevaliant';
-		$pokemon->description = '';
+		$pokemon->description = 'Chevalier';
 		$pokemon->type1_id = 17;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Chevaliant were used by ancient kings to defend palaces. Status was determined depending on the number of Chevaliant in the guard';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 053;
 		$pokemon->name = 'Chevaliaymore';
-		$pokemon->description = '';
+		$pokemon->description = 'Claymore';
 		$pokemon->type1_id = 17;
 		$pokemon->type2_id = 6;
-		$pokemon->entry = '';
+		$pokemon->entry = 'When a Chevaliant has mastered the art of physical combat, it forms a claymore from its own steel and become a Chevaliaymore';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 054;
 		$pokemon->name = 'Chevaliarcane';
-		$pokemon->description = '';
+		$pokemon->description = 'Arcane';
 		$pokemon->type1_id = 17;
 		$pokemon->type2_id = 15;
-		$pokemon->entry = '';
+		$pokemon->entry = 'When a Chevaliant prioritizes its intellect over strength, it obtains psychic power and become a Chevaliarcane';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 055;
 		$pokemon->name = 'Chevaliarceny';
-		$pokemon->description = '';
+		$pokemon->description = 'Archer';
 		$pokemon->type1_id = 17;
 		$pokemon->type2_id = 2;
-		$pokemon->entry = '';
+		$pokemon->entry = 'When a Chevaliant trains mostly in speed, it forms a bow from its own steel and becomes a Chevaliarceny';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 056;
 		$pokemon->name = 'Slidog';
-		$pokemon->description = '';
+		$pokemon->description = 'Spare';
 		$pokemon->type1_id = 13;
 		$pokemon->type2_id = 15;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It uses its psychic powers to stop potential predators in their tracks';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 057;
 		$pokemon->name = 'Spiritard';
-		$pokemon->description = '';
+		$pokemon->description = 'Mystic';
 		$pokemon->type1_id = 9;
 		$pokemon->type2_id = 15;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Legends say it came from space along with Slidog. It uses its psychic powers to avoid being touched';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 058;
 		$pokemon->name = 'Miimur';
-		$pokemon->description = '';
+		$pokemon->description = 'Proud';
 		$pokemon->type1_id = 13;
 		$pokemon->type2_id = 6;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It is so sure of its own skill that it will disregard orders from its trainer if it feels it is superior';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 059;
 		$pokemon->name = 'Miimurdur';
-		$pokemon->description = '';
+		$pokemon->description = 'Purebred';
 		$pokemon->type1_id = 13;
 		$pokemon->type2_id = 6;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It leads packs of Miimur, training them to eventually lead packs of their own';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 060;
 		$pokemon->name = 'Miimacho';
-		$pokemon->description = '';
+		$pokemon->description = 'Domineering';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 6;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Miimacho will take any chance they get to dominate others. If they feel their sense of superiority is being threatened, they will act decisively';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 061;
 		$pokemon->name = 'Bosephus';
-		$pokemon->description = '';
+		$pokemon->description = 'Black Labrador';
 		$pokemon->type1_id = 13;
-		$pokemon->entry = '';
+		$pokemon->entry = 'Bosephus are often kept as pets due to their playful and kind demeanors. When threatened, however, Bosephus defends its family with its powerful jaws';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 062;
 		$pokemon->name = 'Glowsephus';
-		$pokemon->description = '';
+		$pokemon->description = 'Fairy Dog';
 		$pokemon->type1_id = 5;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It evolves from Bosephus when it thrives more off of affection than on its sense of duty';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 063;
 		$pokemon->name = 'Noisephus';
-		$pokemon->description = '';
+		$pokemon->description = 'Guard Dog';
 		$pokemon->type1_id = 2;
-		$pokemon->entry = '';
+		$pokemon->entry = 'It evolves from Bosephus when its sense of duty is more powerful than affection';
 
 		$pokemon = new Pokemon();
 		$pokemon->number = 064;
