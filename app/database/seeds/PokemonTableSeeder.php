@@ -26,6 +26,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Corrosive Spike';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 14;
+		$pokemon->img_url = "/img/Stegaflora.png";
 		$pokemon->entry = 'If attacked, it will poison its foes with the spikes on its tail';
 		$pokemon->save();
 
