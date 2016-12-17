@@ -35,6 +35,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Ember Lizard';
 		$pokemon->type1_id = 7;
 		$pokemon->evolve_level = 17;
+		$pokemon->img_url = "/img/Immomimus.png";
 		$pokemon->entry = 'It uses the embers in its stomach to heat its food';
 		$pokemon->save();
 
@@ -43,6 +44,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Ember Raptor';
 		$pokemon->type1_id = 7;
 		$pokemon->evolve_level = 34;
+		$pokemon->img_url = "/img/Velociraser.png";
 		$pokemon->entry = 'It stalks its prey in groups, using its fire as a distraction';
 		$pokemon->save();
 
@@ -51,6 +53,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Arson';
 		$pokemon->type1_id = 7;
 		$pokemon->type2_id = 2;
+		$pokemon->img_url = "/img/Dinonicarson.png";
 		$pokemon->entry = 'It sets fire to everything in its path and only stops to feed';
 		$pokemon->save();
 
@@ -59,6 +62,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Tiny Dolphin';
 		$pokemon->type1_id = 18;
 		$pokemon->evolve_level = 17;
+		$pokemon->img_url = "/img/Iffin.png";
 		$pokemon->entry = 'It thrives mostly off of plankton until it evolves';
 		$pokemon->save();
 
@@ -67,6 +71,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Jet';
 		$pokemon->type1_id = 18;
 		$pokemon->evolve_level = 34;
+		$pokemon->img_url = "/img/Ikthio.png";
 		$pokemon->entry = 'It suffers many injuries by slamming into river banks from swimming too fast.';
 		$pokemon->save();
 
@@ -75,6 +80,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Plesiosaurus';
 		$pokemon->type1_id = 18;
 		$pokemon->type2_id = 15;
+		$pokemon->img_url = "/img/Ipplesio.png";
 		$pokemon->entry = 'It relies on its psychic powers to determine when predators are too close.';
 		$pokemon->save();
 
