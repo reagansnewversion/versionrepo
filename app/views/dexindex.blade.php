@@ -12,3 +12,6 @@
 	</div>
 @endforeach
 @stop
+@section('bottom-script')
+<script type="text/javascript" src="/js/menu.js"></script>
+@stop

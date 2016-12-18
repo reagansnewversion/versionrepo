@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 	var status = "Closed";
 	$(document).keyup(function(event) {
 		var input = event.which;
