@@ -11,6 +11,7 @@
 		@endif
 	</div>
 @endforeach
+<div class="menu">This is the menu</div>
 @stop
 @section('bottom-script')
 <script type="text/javascript" src="/js/menu.js"></script>

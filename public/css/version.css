@@ -3,3 +3,11 @@ img {
 	width: 150px;
 	border: 1px solid black;
 }
+.menu {
+	height: 500px;
+	width: 500px;
+	background-color: blue;
+	position: fixed;
+	top: 10%;
+	left: 30%;
+}
