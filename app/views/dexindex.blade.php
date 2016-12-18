@@ -13,26 +13,26 @@
 @endforeach
 <div class="menu">
 	<div class="menurow col-lg-12 col-md-12">
-		<div class="col-lg-5 col-lg-offset-1 col-md-5">
+		<div class="menubutton col-lg-5 col-lg-offset-1 col-md-5">
 			Pokemon
 		</div>
-		<div class="col-lg-5 col-lg-offset-1 col-md-5">
+		<div class="menubutton col-lg-5 col-lg-offset-1 col-md-5">
 			Pokedex
 		</div>
 	</div>
 	<div class="menurow col-lg-12 col-md-12">
-		<div class="col-lg-5 col-lg-offset-1 col-md-5">
+		<div class="menubutton col-lg-5 col-lg-offset-1 col-md-5">
 			Bag
 		</div>
-		<div class="col-lg-5 col-lg-offset-1 col-md-5">
+		<div class="menubutton col-lg-5 col-lg-offset-1 col-md-5">
 			Trainer Card
 		</div>
 	</div>
 	<div class="menurow col-lg-12 col-md-12">
-		<div class="col-lg-5 col-lg-offset-1 col-md-5">
+		<div class="menubutton col-lg-5 col-lg-offset-1 col-md-5">
 			Options
 		</div>
-		<div class="col-lg-5 col-lg-offset-1 col-md-5">
+		<div class="menubutton col-lg-5 col-lg-offset-1 col-md-5">
 			Save
 		</div>
 	</div>

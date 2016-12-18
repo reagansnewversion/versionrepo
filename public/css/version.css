@@ -16,3 +16,6 @@ img {
 .menurow {
 	margin-top: 100px;
 }
+.menubutton {
+	border: 1px solid black;
+}
