@@ -6,9 +6,13 @@ img {
 .menu {
 	height: 500px;
 	width: 500px;
-	background-color: blue;
+	background-color: gray;
+	border: 5px double black;
 	position: fixed;
 	top: 10%;
 	left: 30%;
 	opacity: 0;
+}
+.menurow {
+	margin-top: 100px;
 }
