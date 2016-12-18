@@ -10,4 +10,5 @@ img {
 	position: fixed;
 	top: 10%;
 	left: 30%;
+	opacity: 0;
 }

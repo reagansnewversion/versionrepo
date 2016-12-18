@@ -4,10 +4,10 @@ $(document).ready(function() {
 		var input = event.which;
 		if(input == 74) {
 			if(status == "Closed") {
-				console.log("Menu Opened");
+				$(".menu").css('opacity', 1);
 				status = "Open";
 			} else {
-				console.log("Menu Closed");
+				$(".menu").css('opacity', 0);
 				status = "Closed";
 			}
 		}
