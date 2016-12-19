@@ -6,7 +6,7 @@ img {
 .menu {
 	height: 500px;
 	width: 500px;
-	background-color: gray;
+	background-color: #808080;
 	border: 5px double black;
 	position: fixed;
 	top: 10%;
@@ -14,8 +14,10 @@ img {
 	opacity: 0;
 }
 .menurow {
-	margin-top: 100px;
+	margin-top: 80px;
 }
 .menubutton {
 	border: 1px solid black;
+	height: 50px;
+	background-color: #A9A9A9;
 }

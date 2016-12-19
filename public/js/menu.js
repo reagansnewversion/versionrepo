@@ -6,6 +6,9 @@ $(document).ready(function() {
 			if(status == "Closed") {
 				$(".menu").css('opacity', 1);
 				$("body").css("overflow", "hidden");
+				$("#pokemon").click(function() {
+					
+				});
 				status = "Open";
 			} else {
 				$(".menu").css('opacity', 0);
