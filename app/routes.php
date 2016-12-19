@@ -11,12 +11,9 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('home');
-
-});
+Route::get('/', 'HomeController@home');
 
 Route::get('/pokedex', 'DexController@index');
 
 Route::get('/pokedex/{id}', 'DexController@show');
+
