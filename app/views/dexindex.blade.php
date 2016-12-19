@@ -37,6 +37,12 @@
 		</div>
 	</div>
 </div>
+<div class="pokemonmenu">Pokemon</div>
+<div class="pokedexmenu">Pokedex</div>
+<div class="bagmenu">Bag</div>
+<div class="cardmenu">Trainer Card</div>
+<div class="optionsmenu">Options</div>
+<div class="savemenu">Save</div>
 @stop
 @section('bottom-script')
 <script type="text/javascript" src="/js/menu.js"></script>

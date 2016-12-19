@@ -20,4 +20,69 @@ img {
 	border: 1px solid black;
 	height: 50px;
 	background-color: #A9A9A9;
+	/*border: 5px double black;
+	position: fixed;
+	top: 10%;
+	left: 30%;
+	opacity: 0;*/
+}
+.pokemonmenu {
+	height: 500px;
+	width: 500px;
+	background-color: #808080;
+	border: 5px double black;
+	position: fixed;
+	top: 10%;
+	left: 30%;
+	opacity: 0;
+}
+.pokedexmenu {
+	height: 500px;
+	width: 500px;
+	background-color: #808080;
+	border: 5px double black;
+	position: fixed;
+	top: 10%;
+	left: 30%;
+	opacity: 0;
+}
+.bagmenu {
+	height: 500px;
+	width: 500px;
+	background-color: #808080;
+	border: 5px double black;
+	position: fixed;
+	top: 10%;
+	left: 30%;
+	opacity: 0;
+}
+.cardmenu {
+	height: 500px;
+	width: 500px;
+	background-color: #808080;
+	border: 5px double black;
+	position: fixed;
+	top: 10%;
+	left: 30%;
+	opacity: 0;
+}
+.optionsmenu {
+	height: 500px;
+	width: 500px;
+	background-color: #808080;
+	border: 5px double black;
+	position: fixed;
+	top: 10%;
+	left: 30%;
+	opacity: 0;
+}
+.savemenu {
+	height: 500px;
+	width: 500px;
+	background-color: #808080;
+	border: 5px double black;
+	position: fixed;
+	top: 10%;
+	left: 30%;
+	opacity: 0;
 }
