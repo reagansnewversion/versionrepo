@@ -7,6 +7,21 @@ $(document).ready(function() {
 				$(".menu").css('opacity', 1);
 				$("body").css("overflow", "hidden");
 				$("#pokemon").click(function() {
+
+				});
+				$("#pokedex").click(function() {
+
+				});
+				$("#bag").click(function() {
+
+				});
+				$("#card").click(function() {
+
+				});
+				$("#options").click(function() {
+
+				});
+				$("#save").click(function() {
 					
 				});
 				status = "Open";
