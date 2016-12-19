@@ -13,6 +13,12 @@
 
 Route::get('/', 'HomeController@home');
 
+Route::get('/newgame', 'HomeController@newgame');
+
+Route::post('/newgame', 'HomeController@savetrainer');
+
+Route::get('/start', 'HomeController@start');
+
 Route::get('/pokedex', 'DexController@index');
 
 Route::get('/pokedex/{id}', 'DexController@show');

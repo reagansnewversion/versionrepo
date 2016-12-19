@@ -15,9 +15,25 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function Home()
+	public function home()
 	{
 		return View::make('home');
+	}
+
+	public function newgame()
+	{
+		return View::make('newgame');
+	}
+
+	public function savetrainer()
+	{
+		$trainer = new Trainer();
+
+	}
+
+	public function start()
+	{
+		
 	}
 
 }
