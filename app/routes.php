@@ -13,6 +13,8 @@
 
 Route::get('/', 'HomeController@home');
 
+Route::post('/', 'Homecontroller@resume');
+
 Route::get('/newgame', 'HomeController@newgame');
 
 Route::post('/newgame', 'HomeController@savetrainer');

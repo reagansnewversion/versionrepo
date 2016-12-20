@@ -19,7 +19,10 @@ class HomeController extends BaseController {
 	{
 		return View::make('home');
 	}
-
+	public function resume()
+	{
+		
+	}
 	public function newgame()
 	{
 		return View::make('newgame');
@@ -33,7 +36,7 @@ class HomeController extends BaseController {
 
 	public function start()
 	{
-		
+
 	}
 
 }
