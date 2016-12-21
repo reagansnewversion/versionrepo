@@ -21,7 +21,15 @@ class HomeController extends BaseController {
 	}
 	public function resume()
 	{
-
+		$userdata = array(
+			'email' => Input::get('email'),
+			'password' => Input::get('password')
+		);
+		if(Auth::attempt($userdata)) {
+			dd("It worked");
+		} else {
+			dd("It didn't work!");
+		}
 	}
 	public function newgame()
 	{
@@ -37,7 +45,7 @@ class HomeController extends BaseController {
 		$trainer->gender = Input::get('gender');
 		if(Input::get('password') == Input::get('confirmpassword')) {
 			$trainer->save();
-			return Redirect::action('HomeController@home')
+			return Redirect::action('HomeController@home');
 		} else {
 
 		}

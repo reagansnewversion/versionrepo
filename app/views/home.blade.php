@@ -6,11 +6,13 @@
 	<button id="button" class="btn btn-success">Resume Game</button>
 
 	<div id="landingpageform">
-		<form class="form-horizontal" method="POST" action="HomeController@resume">
+		{{Form::open(array('class'=>"form-horizontal", 'method'=>"POST", 'action'=>"HomeController@resume"))}}
 			<label for="email">Enter your email address</label>
 			<input type="text" id="email" name="email">
-		</form>
+			<label for="password">Enter your password</label>
+			<input type="password" id="password" name="password">
 		<button type="submit" class="btn btn-primary">Resume Game</button>
+		{{Form::close()}}
 	</div>
 @stop
 @section('bottom-script')

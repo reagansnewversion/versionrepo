@@ -2,6 +2,6 @@
 
 class Trainer extends Eloquent
 {
-	protected $table = 'trainers';
+	protected $table = 'users';
 }
 ?>

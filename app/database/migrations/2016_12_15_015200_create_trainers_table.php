@@ -12,7 +12,7 @@ class CreateTrainersTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('trainers', function($table) {
+		Schema::create('users', function($table) {
 			$table->increments('id');
 			$table->string('email')->unique();
 			$table->string('name');
@@ -29,7 +29,7 @@ class CreateTrainersTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('trainers');
+		Schema::drop('users');
 	}
 
 }
