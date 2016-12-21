@@ -2,7 +2,7 @@
 @section('content')
 	[This will be text from the professor introducing the world. It will involve timed intervals to emulate an actual opening screen.]
 
-	<form class="form-horizontal" method="POST" action="HomeController@savetrainer">
+	 {{Form::open(array('class'=> "form-horizontal", 'method'=>"POST", 'action'=> "HomeController@savetrainer"))}}
 		<div class="form-group">
 			<label for="email">Enter your email address</label>
 			<input type="text" name="email">
@@ -31,5 +31,5 @@
 			<input type="password" name="confirmpassword">
 		</div>
 		<button type="submit" class="btn btn-primary">Get started!</button>
-	</form>
+	{{Form::close()}}
 @stop
