@@ -89,6 +89,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Timid';
 		$pokemon->type1_id = 13;
 		$pokemon->evolve_level = 20;
+		$pokemon->img_url = "/img/Shrewd.png";
 		$pokemon->entry = 'It spends its days hiding underground from predators';
 		$pokemon->save();
 
@@ -97,6 +98,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Cowardly';
 		$pokemon->type1_id = 13;
 		$pokemon->type2_id = 11;
+		$pokemon->img_url = "/img/Moltified.png";
 		$pokemon->entry = 'When it senses other life, it immediately burrows underground';
 		$pokemon->save();
 
@@ -106,6 +108,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->type1_id = 13;
 		$pokemon->type2_id = 8;
 		$pokemon->evolve_level = 14;
+		$pokemon->img_url = "/img/Avioptrix.png";
 		$pokemon->entry = 'It is not yet capable of flight, so it looks for berries along the ground and uses its wings to dust them off';
 		$pokemon->save();
 
