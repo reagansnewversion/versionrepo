@@ -136,6 +136,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Rabbit';
 		$pokemon->type1_id = 6;
 		$pokemon->evolve_level = 25;
+		$pokemon->img_url = "/img/Sampras.png";
 		$pokemon->entry = 'It is protective of its food and will fight to the death at the slightest provocation';
 		$pokemon->save();
 
@@ -144,6 +145,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Sand Camel';
 		$pokemon->type1_id = 11;
 		$pokemon->type2_id = 6;
+		$pokemon->img_url = "/img/Sammel.png";
 		$pokemon->entry = 'It camoflauges itself with the surrounding dirt to hide from predators';
 		$pokemon->save();
 
