@@ -118,6 +118,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->type1_id = 13;
 		$pokemon->type2_id = 8;
 		$pokemon->evolve_level = 36;
+		$pokemon->img_url = "/img/Archaetalon.png";
 		$pokemon->entry = 'Archaetalon is extremely aggressive, picking fights with any living being that enters its territory';
 		$pokemon->save();
 
@@ -126,6 +127,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Fighting Bird';
 		$pokemon->type1_id = 6;
 		$pokemon->type2_id = 8;
+		$pokemon->img_url = "/img/Aviopugil.png";
 		$pokemon->entry = 'Now capable of flight, Aviopugil keeps the sky around its territory clear of other life';
 		$pokemon->save();
 
