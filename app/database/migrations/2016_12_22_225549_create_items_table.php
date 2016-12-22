@@ -1,0 +1,37 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateItemsTable extends Migration {
+
+	/**
+	 * Run the migrations.
+	 *
+	 * @return void
+	 */
+	public function up()
+	{
+		Schema::create('items', function($table) {
+			$table->increments('id');
+			$table->string('name');
+			$table->string('description', 100);
+			$table->string('type');
+			$table->string('target')->nullable();
+			$table->string('value')->nullable();
+			$table->string('ailment')->nullable();
+			$table->timestamps();
+		});
+	}
+
+	/**
+	 * Reverse the migrations.
+	 *
+	 * @return void
+	 */
+	public function down()
+	{
+		Schema::drop('items');
+	}
+
+}
