@@ -26,9 +26,11 @@ class HomeController extends BaseController {
 			'password' => Input::get('password')
 		);
 		if(Auth::attempt($userdata)) {
-			dd("It worked");
+			Session::flash('successMessage', 'Welcome back, ' . Auth::user()->name . "!");
+			return Redirect::action('HomeController@home');
 		} else {
-			dd("It didn't work!");
+			Session::flash('errorMessage', 'There was an error logging you in. Please try again!');
+			return Redirect::back();
 		}
 	}
 	public function newgame()
@@ -45,9 +47,11 @@ class HomeController extends BaseController {
 		$trainer->gender = Input::get('gender');
 		if(Input::get('password') == Input::get('confirmpassword')) {
 			$trainer->save();
+			Session::flash('successMessage', 'Your information has been saved!');
 			return Redirect::action('HomeController@home');
 		} else {
-
+			Session::flash('errorMessage', 'There was an error saving your information. Please try again!');
+			return Redirect::back()->withInput();
 		}
 
 	}
