@@ -18,6 +18,7 @@ class CreateTrainersBadgesTable extends Migration {
 			$table->foreign('trainer_id')->references('id')->on('users');
 			$table->integer('badge_id')->unsigned();
 			$table->foreign('badge_id')->references('id')->on('badges');
+			$table->timestamps();
 		});
 	}
 
