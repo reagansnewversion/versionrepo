@@ -23,7 +23,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Growth';
 		$pokemon->type1_id = 10;
 		$pokemon->evolve_level = 34;
-		$pokemon->base_hp = 85;
+		$pokemon->base_hp = 95;
 		$pokemon->base_attack = 22;
 		$pokemon->base_sp_attack = 25;
 		$pokemon->base_defense = 27;
@@ -38,7 +38,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Corrosive Spike';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 14;
-		$pokemon->base_hp = 170;
+		$pokemon->base_hp = 180;
 		$pokemon->base_attack = 39;
 		$pokemon->base_sp_attack = 42;
 		$pokemon->base_defense = 39;
@@ -53,6 +53,12 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Ember Lizard';
 		$pokemon->type1_id = 7;
 		$pokemon->evolve_level = 17;
+		$pokemon->base_hp = 9;
+		$pokemon->base_attack = 9;
+		$pokemon->base_sp_attack = 10;
+		$pokemon->base_defense = 5;
+		$pokemon->base_sp_defense = 5;
+		$pokemon->base_speed = 10;
 		$pokemon->img_url = "/img/Immomimus.png";
 		$pokemon->entry = 'It uses the embers in its stomach to heat its food';
 		$pokemon->save();
@@ -62,6 +68,12 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Ember Raptor';
 		$pokemon->type1_id = 7;
 		$pokemon->evolve_level = 34;
+		$pokemon->base_hp = 94;
+		$pokemon->base_attack = 26;
+		$pokemon->base_sp_attack = 27;
+		$pokemon->base_defense = 22;
+		$pokemon->base_sp_defense = 22;
+		$pokemon->base_speed = 27;
 		$pokemon->img_url = "/img/Velociraser.png";
 		$pokemon->entry = 'It stalks its prey in groups, using its fire as a distraction';
 		$pokemon->save();
@@ -71,6 +83,12 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Arson';
 		$pokemon->type1_id = 7;
 		$pokemon->type2_id = 2;
+		$pokemon->base_hp = 179;
+		$pokemon->base_attack = 43;
+		$pokemon->base_sp_attack = 44;
+		$pokemon->base_defense = 39;
+		$pokemon->base_sp_defense = 39;
+		$pokemon->base_speed = 44;
 		$pokemon->img_url = "/img/Dinonicarson.png";
 		$pokemon->entry = 'It sets fire to everything in its path and only stops to feed';
 		$pokemon->save();
