@@ -8,6 +8,12 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Tiny Seed';
 		$pokemon->type1_id = 10;
 		$pokemon->evolve_level = 17;
+		$pokemon->base_hp = 10;
+		$pokemon->base_attack = 5;
+		$pokemon->base_sp_attack = 8;
+		$pokemon->base_defense = 10;
+		$pokemon->base_sp_defense = 5;
+		$pokemon->base_speed = 5;
 		$pokemon->entry = 'Stegaseed lives its entire life in search of nutrients';
 		$pokemon->img_url = "/img/Stegaseed.png";
 		$pokemon->save();
@@ -17,6 +23,12 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Growth';
 		$pokemon->type1_id = 10;
 		$pokemon->evolve_level = 34;
+		$pokemon->base_hp = 85;
+		$pokemon->base_attack = 22;
+		$pokemon->base_sp_attack = 25;
+		$pokemon->base_defense = 27;
+		$pokemon->base_sp_defense = 22;
+		$pokemon->base_speed = 22;
 		$pokemon->img_url = "/img/Stegastalk.png";
 		$pokemon->entry = 'It is incredibly defensive of the stalk that grows on its back';
 		$pokemon->save();
@@ -26,6 +38,12 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Corrosive Spike';
 		$pokemon->type1_id = 10;
 		$pokemon->type2_id = 14;
+		$pokemon->base_hp = 170;
+		$pokemon->base_attack = 39;
+		$pokemon->base_sp_attack = 42;
+		$pokemon->base_defense = 39;
+		$pokemon->base_sp_defense = 39;
+		$pokemon->base_speed = 39;
 		$pokemon->img_url = "/img/Stegaflora.png";
 		$pokemon->entry = 'If attacked, it will poison its foes with the spikes on its tail';
 		$pokemon->save();
