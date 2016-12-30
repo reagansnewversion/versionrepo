@@ -250,6 +250,7 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->description = 'Kitten';
 		$pokemon->type1_id = 16;
 		$pokemon->evolve_level = 16;
+		$pokemon->img_url = "/img/Rokkit.png";
 		$pokemon->base_hp = ;
 		$pokemon->base_attack = ;
 		$pokemon->base_sp_attack = ;
