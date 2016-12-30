@@ -129,11 +129,11 @@ class PokemonTableSeeder extends Seeder {
 		$pokemon->type1_id = 18;
 		$pokemon->type2_id = 15;
 		$pokemon->base_hp = 179;
-		$pokemon->base_attack = ;
-		$pokemon->base_sp_attack = ;
-		$pokemon->base_defense = ;
-		$pokemon->base_sp_defense = ;
-		$pokemon->base_speed = ;
+		$pokemon->base_attack = 44;
+		$pokemon->base_sp_attack = 44;
+		$pokemon->base_defense = 39;
+		$pokemon->base_sp_defense = 39;
+		$pokemon->base_speed = 45;
 		$pokemon->img_url = "/img/Ipplesio.png";
 		$pokemon->entry = 'It relies on its psychic powers to determine when predators are too close.';
 		$pokemon->save();
