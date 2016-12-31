@@ -22,7 +22,7 @@ class HomeController extends BaseController {
 	public function sample()
 	{
 		if(Auth::check()) {
-			return View::make('sample')
+			return View::make('sample');
 		}
 	}
 	public function resume()
