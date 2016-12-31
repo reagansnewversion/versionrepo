@@ -193,3 +193,10 @@
 	</div>
 </div>
 @stop
+@section('bottom-script')
+<script type="text/javascript">
+	$("#K10").mouseenter(function() {
+		console.log("Event fired!");
+	});
+</script>
+@stop
