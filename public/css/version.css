@@ -92,9 +92,6 @@ img {
 }
 .square {
 	border: 1px solid black;
-	height: 10px;
-	background-color: red;
-}
-.row {
+	height: 50px;
 	background-color: red;
 }
