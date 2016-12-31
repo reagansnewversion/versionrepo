@@ -19,6 +19,12 @@ class HomeController extends BaseController {
 	{
 		return View::make('home');
 	}
+	public function sample()
+	{
+		if(Auth::check()) {
+			return View::make('sample')
+		}
+	}
 	public function resume()
 	{
 		$userdata = array(
@@ -27,7 +33,7 @@ class HomeController extends BaseController {
 		);
 		if(Auth::attempt($userdata)) {
 			Session::flash('successMessage', 'Welcome back, ' . Auth::user()->name . "!");
-			return Redirect::action('HomeController@home');
+			return Redirect::action('HomeController@sample');
 		} else {
 			Session::flash('errorMessage', 'There was an error logging you in. Please try again!');
 			return Redirect::back();
@@ -40,6 +46,10 @@ class HomeController extends BaseController {
 
 	public function savetrainer()
 	{
+		$userdata = array(
+			'email' => Input::get('email'),
+			'password' => Input::get('password')
+		);
 		$trainer = new Trainer();
 		$trainer->email = Input::get('email');
 		$trainer->name = Input::get('name');
@@ -47,8 +57,9 @@ class HomeController extends BaseController {
 		$trainer->gender = Input::get('gender');
 		if(Input::get('password') == Input::get('confirmpassword')) {
 			$trainer->save();
+			Auth::attempt($userdata);
 			Session::flash('successMessage', 'Your information has been saved!');
-			return Redirect::action('HomeController@home');
+			return Redirect::action('HomeController@sample');
 		} else {
 			Session::flash('errorMessage', 'There was an error saving your information. Please try again!');
 			return Redirect::back()->withInput();
