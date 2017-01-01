@@ -15,11 +15,13 @@ class DatabaseSeeder extends Seeder {
 		DB::table('pokemon')->delete();
 		DB::table('effectiveness')->delete();
 		DB::table('locations')->delete();
+		DB::table('locations_pokemon')->delete();
 
 		$this->call('TypesTableSeeder');
 		$this->call('PokemonTableSeeder');
 		$this->call('EffectivenessSeeder');
 		$this->call('LocationSeeder');
+		$this->call('LocationPokemonSeeder');
 	}
 
 }
