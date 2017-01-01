@@ -91,7 +91,7 @@ img {
 	opacity: 0;
 }
 .square {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	height: 55px;
-	background-color: red;
+	/*background-color: red;*/
 }
