@@ -19,10 +19,18 @@ class HomeController extends BaseController {
 	{
 		return View::make('home');
 	}
-	public function sample()
+	public function sample($id)
 	{
 		if(Auth::check()) {
-			return View::make('sample');
+			$location = Location::find($id);
+			$locationpokemon = DB::table('locations_pokemon')->where('location_id', $id)->get();
+			$pokemon = [];
+			dd("Not Yet");
+			foreach($locationpokemon as $pk) {
+				$pkm = DB::table('pokemon')->where('id', $pk->pokemon_id)->get();
+				array_push($pokemon, $pkm->name);
+			}
+			return View::make('sample')->with('location', $location)->with('locationpokemon', $locationpokemon);
 		}
 	}
 	public function resume()

@@ -15,7 +15,7 @@ Route::get('/', 'HomeController@home');
 
 Route::post('/', 'HomeController@resume');
 
-Route::get('/sample', 'HomeController@sample');
+Route::get('/sample/{id}', 'HomeController@sample');
 
 Route::get('/newgame', 'HomeController@newgame');
 
