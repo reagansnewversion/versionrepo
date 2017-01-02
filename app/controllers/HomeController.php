@@ -25,12 +25,13 @@ class HomeController extends BaseController {
 			$location = Location::find($id);
 			$locationpokemon = DB::table('locations_pokemon')->where('location_id', $id)->get();
 			$pokemon = [];
-			dd("Not Yet");
 			foreach($locationpokemon as $pk) {
 				$pkm = DB::table('pokemon')->where('id', $pk->pokemon_id)->get();
-				array_push($pokemon, $pkm->name);
+				foreach($pkm as $pkmn) {
+					array_push($pokemon, $pkmn);
+				}
 			}
-			return View::make('sample')->with('location', $location)->with('locationpokemon', $locationpokemon);
+			return View::make('sample')->with('location', $location)->with('locationpokemon', $locationpokemon)->with('pokemon', $pokemon);
 		}
 	}
 	public function resume()
