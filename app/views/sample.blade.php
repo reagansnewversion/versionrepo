@@ -171,7 +171,7 @@
 		<div id="K7" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		<div id="K8" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		<div id="K9" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-		<div <?php $i=0; foreach($pokemon as $pk) {?> data-name<?php echo($i); $i++; ?>=<?= $pk->name ?> <?php } ?>id="K10" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+		<div <?php $i=0; foreach($pokemon as $pk) {?> data-name[<?php echo($i); $i++; ?>]=<?= $pk->name ?> <?php } ?>id="K10" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		<div id="K11" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		<div id="K12" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 	</div>
@@ -196,7 +196,13 @@
 @section('bottom-script')
 <script type="text/javascript">
 	$("#K10").mouseenter(function() {
-		console.log("Event fired!");
+		var rand = (Math.floor((Math.random() * 11)));
+		var pokemon = $(this).data("name[" + rand + "]");
+		if(pokemon != undefined) {
+			console.log("A wild " + pokemon + " appeared!");
+		} else {
+			console.log("Nothing appeared!");
+		}
 	});
 </script>
 @stop
