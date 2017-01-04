@@ -14,7 +14,8 @@ class CreateSquaresTable extends Migration {
 	{
 		Schema::create('squares', function($table) {
 			$table->increments('id');
-			$table->string('square');
+			$table->string('letter');
+			$table->integer('number')->unsigned();
 			$table->timestamps();
 		});
 	}
