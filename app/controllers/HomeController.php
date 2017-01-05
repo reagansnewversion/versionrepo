@@ -22,6 +22,7 @@ class HomeController extends BaseController {
 	public function sample($id)
 	{
 		if(Auth::check()) {
+			$squares = Square::all();
 			$location = Location::find($id);
 			$locationpokemon = DB::table('locations_pokemon')->where('location_id', $id)->get();
 			$pokemon = [];
@@ -31,7 +32,7 @@ class HomeController extends BaseController {
 					array_push($pokemon, $pkmn);
 				}
 			}
-			return View::make('sample')->with('location', $location)->with('locationpokemon', $locationpokemon)->with('pokemon', $pokemon);
+			return View::make('sample')->with('location', $location)->with('locationpokemon', $locationpokemon)->with('pokemon', $pokemon)->with('squares', $squares);
 		}
 	}
 	public function resume()
