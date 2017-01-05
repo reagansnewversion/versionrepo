@@ -31,7 +31,7 @@ class HomeController extends BaseController {
 				foreach($pkm as $pkmn) {
 					array_push($pokemon, $pkmn);
 				}
-			}
+			} 
 			return View::make('sample')->with('location', $location)->with('locationpokemon', $locationpokemon)->with('pokemon', $pokemon)->with('squares', $squares);
 		}
 	}

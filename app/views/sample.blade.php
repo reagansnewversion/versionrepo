@@ -1,6 +1,11 @@
 @extends('layouts.master')
 @section('content')
-<div class="row A">
+<?php for($i = 0; $i < count($squares); $i++) {?>
+	<?php if($i == 0 || $squares[$i]->letter != $squares[$i-1]->letter) {?>
+	
+	<?php } ?>
+<?php } ?>
+{{-- <div class="row A">
 	<div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div id="A1" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		<div id="A2" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
@@ -191,7 +196,7 @@
 		<div id="L11" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		<div id="L12" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 	</div>
-</div>
+</div> --}}
 @stop
 @section('bottom-script')
 <script type="text/javascript">
