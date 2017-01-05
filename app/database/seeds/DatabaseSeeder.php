@@ -16,12 +16,14 @@ class DatabaseSeeder extends Seeder {
 		DB::table('effectiveness')->delete();
 		DB::table('locations')->delete();
 		DB::table('locations_pokemon')->delete();
+		DB::table('squares')->delete();
 
 		$this->call('TypesTableSeeder');
 		$this->call('PokemonTableSeeder');
 		$this->call('EffectivenessSeeder');
 		$this->call('LocationSeeder');
 		$this->call('LocationPokemonSeeder');
+		$this->call('SquareSeeder');
 	}
 
 }
