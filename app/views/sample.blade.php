@@ -2,7 +2,13 @@
 @section('content')
 <?php for($i = 0; $i < count($squares); $i++) {?>
 	<?php if($i == 0 || $squares[$i]->letter != $squares[$i-1]->letter) {?>
-	
+		<div class="row <?= $squares[$i]->letter ?>">
+			<div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<?php } ?>
+		
+	<?php if($i == 0 || $squares[$i]->letter != $squares[$i-1]->letter) {?>
+			</div>
+		</div>
 	<?php } ?>
 <?php } ?>
 {{-- <div class="row A">
