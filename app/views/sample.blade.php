@@ -6,7 +6,7 @@
 			<div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<?php } ?>
 		<div id="<?=$squares[$i]->letter?><?=$squares[$i]->number?>" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-	<?php if($i == 0 || $squares[$i]->letter != $squares[$i-1]->letter) {?>
+	<?php if($i == 143 || $squares[$i]->letter != $squares[$i+1]->letter) {?>
 			</div>
 		</div>
 	<?php } ?>
