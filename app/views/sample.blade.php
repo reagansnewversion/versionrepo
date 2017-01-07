@@ -5,12 +5,13 @@
 		<div class="row <?= $squares[$i]->letter ?>">
 			<div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<?php } ?>
-		<div id="<?=$squares[$i]->letter?><?=$squares[$i]->number?>" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+		<div <?php $i=0; foreach($pokemon as $pk) {?> data-name[<?php echo($i); $i++; ?>]=<?= $pk->name ?> <?php } ?> id="<?=$squares[$i]->letter?><?=$squares[$i]->number?>" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 	<?php if($i == 143 || $squares[$i]->letter != $squares[$i+1]->letter) {?>
 			</div>
 		</div>
 	<?php } ?>
 <?php } ?>
+
 {{-- <div class="row A">
 	<div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div id="A1" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
@@ -182,7 +183,7 @@
 		<div id="K7" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		<div id="K8" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		<div id="K9" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-		<div <?php $i=0; foreach($pokemon as $pk) {?> data-name[<?php echo($i); $i++; ?>]=<?= $pk->name ?> <?php } ?>id="K10" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+		<div id="K10" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		<div id="K11" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		<div id="K12" class="square col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 	</div>
