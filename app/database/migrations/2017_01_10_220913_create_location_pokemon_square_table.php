@@ -15,6 +15,10 @@ class CreateLocationPokemonSquareTable extends Migration {
 		Schema::create('locations_pokemon_squares', function($table) {
 			$table->increments('id');
 			$table->integer('square_id')->unsigned();
+			$table->foreign('square_id')->references('id')->on('squares');
+			$table->integer('location_pokemon_id')->unsigned();
+			$table->foreign('location_pokemon_id')->references('id')->on('locations_pokemon');
+			$table->timestamps();
 		});
 	}
 
@@ -25,7 +29,7 @@ class CreateLocationPokemonSquareTable extends Migration {
 	 */
 	public function down()
 	{
-		//
+		Schema::drop('locations_pokemon_squares');
 	}
 
 }
