@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder {
 		DB::table('locations')->delete();
 		DB::table('locations_pokemon')->delete();
 		DB::table('squares')->delete();
+		DB::table('locations_pokemon_squares')->delete();
 
 		$this->call('TypesTableSeeder');
 		$this->call('PokemonTableSeeder');
@@ -24,6 +25,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('LocationSeeder');
 		$this->call('LocationPokemonSeeder');
 		$this->call('SquareSeeder');
+		$this->call('LocationPokemonSquareSeeder');
 	}
 
 }
